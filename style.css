@@ -135,12 +135,16 @@ footer {
 	text-align: center;
 	background-color: var(--primary-color);
 	padding: 1rem;
-	position: sticky;
+	position: fixed;
 	bottom: 0;
 }
 
 @media screen and (max-width: 600px) {
 	.introduction {
 		text-align: center;
+	}
+
+	footer {
+		position: sticky;
 	}
 }
