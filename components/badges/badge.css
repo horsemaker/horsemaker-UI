@@ -1,0 +1,71 @@
+.badge {
+	display: inline-block;
+	position: relative;
+	padding: 0.75rem;
+}
+
+.badge-content {
+	position: absolute;
+	border-radius: 50%;
+}
+
+.badge-small {
+	padding: 2px 7px;
+}
+
+.badge-large {
+	padding: 2px 8px;
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+
+.badge-left {
+	left: -8px;
+	top: -5px;
+}
+
+.badge-right {
+	right: -8px;
+	top: -5px;
+}
+
+.badge-large.badge-right {
+	right: -1rem;
+	top: -8px;
+}
+
+.badge-large.badge-left {
+	left: -1rem;
+	top: -8px;
+}
+
+.badge-button {
+	border: none;
+	font-family: inherit;
+	border-radius: 5px;
+	background-color: var(--primary-color);
+	font-size: inherit;
+	color: inherit;
+	box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f;
+}
+
+.badge-purple {
+	background-color: var(--accent-purple-dark);
+}
+
+.badge-red {
+	background-color: var(--accent-red-dark);
+}
+
+.badge-emerald {
+	background-color: var(--accent-emerald-dark);
+}
+
+.badge-orange {
+	background-color: var(--accent-orange-dark);
+}
+
+.badge-icon > .badge-content {
+	top: 0;
+	right: 0;
+}
