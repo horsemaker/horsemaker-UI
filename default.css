@@ -16,6 +16,7 @@
 	--accent-purple-dark: #8b5cf6;
 	--accent-emerald-light: #10b981;
 	--accent-emerald-dark: #047857;
+	--accent-sky-dark: #0369a1;
 	--accent-red-light: #dc2626;
 	--accent-red-dark: #b91c1c;
 	--accent-orange-light: #b45309;
@@ -104,6 +105,10 @@ button {
 
 .hl-orange-dark {
 	background-color: var(--accent-orange-dark);
+}
+
+.hl-sky-dark {
+	background-color: var(--accent-sky-dark);
 }
 
 footer {
