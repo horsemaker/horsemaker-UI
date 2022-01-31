@@ -55,9 +55,6 @@ body {
 .component-link {
 	margin-top: auto;
 	align-self: flex-start;
-	padding: 0.2rem 0.4rem;
-	background-color: var(--accent-red-dark);
-	border-radius: 5px;
 }
 
 @media screen and (max-width: 600px) {

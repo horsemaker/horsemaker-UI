@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css2?family=Material+Icons);
+
 /* Avatars */
 
 .avatar-round {
@@ -33,6 +35,10 @@
 .badge-content {
 	position: absolute;
 	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	aspect-ratio: 1 / 1;
 }
 
 .badge-small {
@@ -97,3 +103,124 @@
 }
 
 /* Badges */
+
+/* Alerts */
+
+.alert {
+	max-width: 20rem;
+	padding: 1rem;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+}
+
+.alert-primary {
+	background-color: var(--accent-purple-dark);
+	border: 1px solid var(--accent-purple-dark);
+}
+
+.alert-warning {
+	background-color: var(--accent-orange-dark);
+	border: 1px solid var(--accent-orange-dark);
+}
+
+.alert-error {
+	background-color: var(--accent-red-dark);
+	border: 1px solid var(--accent-red-dark);
+}
+
+.alert-success {
+	background-color: var(--accent-emerald-dark);
+	border: 1px solid var(--accent-emerald-dark);
+}
+
+.alert-content {
+	font-weight: 500;
+}
+
+/* Alerts */
+
+/* Buttons */
+
+.btn {
+	max-width: 10rem;
+	font-weight: bold;
+	padding: 0.75rem 1rem;
+	border-radius: 5px;
+}
+
+.btn-link {
+	background-color: var(--accent-sky-dark);
+}
+
+.btn-icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+}
+
+.btn-solid-primary {
+	background-color: var(--accent-purple-dark);
+}
+
+.btn-solid-warning {
+	background-color: var(--accent-orange-dark);
+}
+
+.btn-solid-danger {
+	background-color: var(--accent-red-dark);
+}
+
+.btn-solid-safe {
+	background-color: var(--accent-emerald-dark);
+}
+
+.btn-outline-primary {
+	border: 1px solid var(--accent-purple-dark);
+	background-color: var(--primary-color);
+}
+
+.btn-outline-primary:hover {
+	background-color: var(--accent-purple-dark);
+}
+
+.btn-outline-warning {
+	border: 1px solid var(--accent-orange-dark);
+	background-color: var(--primary-color);
+}
+
+.btn-outline-warning:hover {
+	background-color: var(--accent-orange-dark);
+}
+
+.btn-outline-danger {
+	border: 1px solid var(--accent-red-dark);
+	background-color: var(--primary-color);
+}
+
+.btn-outline-danger:hover {
+	background-color: var(--accent-red-dark);
+}
+
+.btn-outline-safe {
+	border: 1px solid var(--accent-emerald-dark);
+	background-color: var(--primary-color);
+}
+
+.btn-outline-safe:hover {
+	background-color: var(--accent-emerald-dark);
+}
+
+.btn-float {
+	padding: 0.75rem;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	aspect-ratio: 1 / 1;
+}
+
+/* Buttons */

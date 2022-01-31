@@ -4,11 +4,11 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Avatars | Horsemaker's UI</title>
+		<title>Alerts | Hormaker's UI</title>
 		<link rel="stylesheet" href="../../default.css" />
 		<link rel="stylesheet" href="../../main.css" />
 		<link rel="stylesheet" href="style.css" />
-		<!-- <link rel="stylesheet" href="avatar.css" /> -->
+		<!-- <link rel="stylesheet" href="alert.css" /> -->
 	</head>
 	<body>
 		<div class="header">
@@ -21,43 +21,42 @@
 				<h2>Horsemaker's UI</h2></a
 			>
 		</div>
-		<div class="main avatars">
-			<h1>Avatars</h1>
+		<div class="main alerts">
+			<h1>Alerts</h1>
 			<p>
-				Avatar can be used to show user's profile picture on profile
-				information page, on navigation bar, in blogs grid items.
+				Alerts are used to attract user's attention for important
+				information without interrupting the user's flow.
 			</p>
-			<p>large avatar</p>
+			<p>primary alert</p>
 			<div class="playground">
-				<img
-					class="avatar-round avatar-lg"
-					src="../../assets/avatarOne.png"
-					alt=""
-				/>
+				<div class="alert alert-primary">
+					<span class="alert-content">This is a PRIMARY alert</span>
+				</div>
 			</div>
-			<p>medium avatar</p>
+			<!-- <p>secondary alert</p>
+			<div class="playground"></div> -->
+			<p>warning alert</p>
 			<div class="playground">
-				<img
-					class="avatar-round avatar-md"
-					src="../../assets/avatarTwo.png"
-					alt=""
-				/>
+				<div class="alert alert-warning">
+					<span class="material-icons"> warning </span>
+					<span class="alert-content">This is a WARNING alert</span>
+				</div>
 			</div>
-			<p>small avatar</p>
+			<p>error alert</p>
 			<div class="playground">
-				<img
-					class="avatar-round avatar-sm"
-					src="../../assets/avatarThree.png"
-					alt=""
-				/>
+				<div class="alert alert-error">
+					<span class="material-icons alert-icon"> error </span>
+					<span class="alert-content">This is an ERRRRROR alert</span>
+				</div>
 			</div>
-			<p>x-small avatar</p>
+			<p>success alert</p>
 			<div class="playground">
-				<img
-					class="avatar-round avatar-xs"
-					src="../../assets/avatarFour.png"
-					alt=""
-				/>
+				<div class="alert alert-success">
+					<span class="material-icons alert-icon">
+						check_circle
+					</span>
+					<span class="alert-content">This is a SUCCESS alert</span>
+				</div>
 			</div>
 		</div>
 		<footer>
