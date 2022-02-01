@@ -1,0 +1,10 @@
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 5vh 0;
+}
+
+.card-media {
+	background-color: var(--geist-success);
+}
