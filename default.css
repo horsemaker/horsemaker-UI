@@ -1,57 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
-:root {
-	--primary-color: #2f3237;
-	--secondary-color: #2a2b2f;
-	--font-color: #e5eaf0;
-	--accent-gray-light: #9ca3af;
-	--accent-gray-dark: #4b5563;
-	--accent-purple-light: #bba9fb;
-	--accent-purple-dark: #8b5cf6;
-	--accent-emerald-light: #10b981;
-	--accent-emerald-dark: #047857;
-	--accent-sky-dark: #0369a1;
-	--accent-red-light: #dc2626;
-	--accent-red-dark: #b91c1c;
-	--accent-orange-light: #b45309;
-	--accent-orange-dark: #92400e;
-
-	--playground-color: #333333;
-	--letter-spacing: 0.5px;
-}
-
 body {
 	margin: 0 1rem;
-	background-color: var(--primary-color);
-	color: var(--font-color);
+	background-color: var(--geist-background);
+	color: var(--geist-foreground);
 	font-family: 'Rubik', sans-serif;
 	letter-spacing: var(--letter-spacing);
-}
-
-a {
-	text-decoration: none;
-	font: inherit;
-	color: inherit;
 }
 
 h1 {
 	font-size: 2.5rem;
 	text-align: center;
 	word-wrap: break-word;
-}
-
-button {
-	cursor: pointer;
-	border: none;
-	background: none;
-	font: inherit;
-	color: inherit;
 }
 
 .header {
@@ -84,41 +42,12 @@ button {
 	padding: 2rem;
 	border-radius: 5px;
 	background-color: var(--playground-color);
-	border: 1px solid var(--secondary-color);
-}
-
-.hl {
-	display: inline-block;
-	margin-top: 2px;
-	margin-bottom: 2px;
-	padding: 0.2rem 0.4rem;
-	border-radius: 5px;
-	font-weight: 500;
-}
-
-.hl-purple-dark {
-	background-color: var(--accent-purple-dark);
-}
-
-.hl-emerald-dark {
-	background-color: var(--accent-emerald-dark);
-}
-
-.hl-orange-light {
-	background-color: var(--accent-orange-light);
-}
-
-.hl-orange-dark {
-	background-color: var(--accent-orange-dark);
-}
-
-.hl-sky-dark {
-	background-color: var(--accent-sky-dark);
+	border: 1px solid var(--geist-background-dark);
 }
 
 footer {
 	text-align: center;
-	background-color: var(--primary-color);
+	background-color: var(--geist-background);
 	padding: 1rem;
 }
 

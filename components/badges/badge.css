@@ -7,6 +7,10 @@
 .badge-content {
 	position: absolute;
 	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	aspect-ratio: 1 / 1;
 }
 
 .badge-small {
@@ -43,26 +47,30 @@
 	border: none;
 	font-family: inherit;
 	border-radius: 5px;
-	background-color: var(--primary-color);
+	background-color: var(--geist-background-darker);
 	font-size: inherit;
 	color: inherit;
 	box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f;
 }
 
-.badge-purple {
-	background-color: var(--accent-purple-dark);
+.badge-blue {
+	background-color: var(--geist-blue);
 }
 
-.badge-red {
-	background-color: var(--accent-red-dark);
+.badge-violet {
+	background-color: var(--geist-violet);
 }
 
-.badge-emerald {
-	background-color: var(--accent-emerald-dark);
+.badge-error {
+	background-color: var(--geist-error);
 }
 
-.badge-orange {
-	background-color: var(--accent-orange-dark);
+.badge-success {
+	background-color: var(--geist-success);
+}
+
+.badge-warning {
+	background-color: var(--geist-warning);
 }
 
 .badge-icon > .badge-content {
