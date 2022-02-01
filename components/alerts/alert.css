@@ -9,23 +9,19 @@
 }
 
 .alert-primary {
-    background-color: var(--accent-purple-dark);
-	border: 1px solid var(--accent-purple-dark);
+	background-color: var(--geist-blue);
 }
 
 .alert-warning {
-	background-color: var(--accent-orange-dark);
-	border: 1px solid var(--accent-orange-dark);
+	background-color: var(--geist-warning);
 }
 
 .alert-error {
-	background-color: var(--accent-red-dark);
-	border: 1px solid var(--accent-red-dark);
+	background-color: var(--geist-error);
 }
 
 .alert-success {
-	background-color: var(--accent-emerald-dark);
-	border: 1px solid var(--accent-emerald-dark);
+	background-color: var(--geist-success);
 }
 
 .alert-content {
