@@ -10,9 +10,16 @@ a {
 	color: inherit;
 }
 
+a,
 button {
 	cursor: pointer;
+}
+
+button,
+input,
+textarea {
 	border: none;
+	outline: none;
 	background: none;
 	font: inherit;
 	color: inherit;
