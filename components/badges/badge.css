@@ -33,13 +33,13 @@
 	top: -5px;
 }
 
-.badge-large.badge-right {
-	right: -1rem;
+.badge-large.badge-left {
+	left: -1rem;
 	top: -8px;
 }
 
-.badge-large.badge-left {
-	left: -1rem;
+.badge-large.badge-right {
+	right: -1rem;
 	top: -8px;
 }
 
@@ -53,27 +53,67 @@
 	box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f;
 }
 
-.badge-blue {
+.badge-blue,
+.status-blue {
 	background-color: var(--geist-blue);
 }
 
-.badge-violet {
+.badge-violet,
+.status-violet {
 	background-color: var(--geist-violet);
 }
 
-.badge-error {
+.badge-gray,
+.status-offline {
+	background-color: var(--accents-4);
+}
+
+.badge-error,
+.status-dnd {
 	background-color: var(--geist-error);
 }
 
-.badge-success {
+.badge-success,
+.status-online {
 	background-color: var(--geist-success);
 }
 
-.badge-warning {
+.badge-warning,
+.status-idle {
 	background-color: var(--geist-warning);
 }
 
 .badge-icon > .badge-content {
 	top: 0;
 	right: 0;
+}
+
+/* Status Badges */
+.badge-avatar {
+	padding: 0;
+}
+
+.status-lg {
+	height: 1.5rem;
+	border: 2.5px solid var(--geist-foreground);
+}
+
+.status-md {
+	height: 1.25rem;
+	border: 2.5px solid var(--geist-foreground);
+}
+
+.status-sm {
+	height: 1rem;
+	border: 2.5px solid var(--geist-foreground);
+}
+
+.status-xs {
+	height: 0.75rem;
+	border: 2px solid var(--geist-foreground);
+}
+
+.badge-avatar .badge-content {
+	right: 4%;
+	bottom: 12.5%;
 }
