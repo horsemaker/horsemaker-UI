@@ -32,7 +32,11 @@ input[type='radio'] {
 	width: 1rem;
 }
 
-input[type=file]::file-selector-button {
+input[type='file'] {
+	width: 100%;
+}
+
+input[type='file']::file-selector-button {
 	padding: 0.5rem 0.75rem;
 	border-radius: 5px;
 	background-color: var(--geist-blue);
