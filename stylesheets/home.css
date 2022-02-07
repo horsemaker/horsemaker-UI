@@ -1,0 +1,69 @@
+body {
+	margin-top: 6vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 5vh 0;
+}
+
+.introduction {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+	letter-spacing: var(--letter-spacing);
+}
+
+.introduction-details {
+	display: flex;
+	flex-direction: column;
+}
+
+.introduction-lineOne {
+	font-weight: 500;
+	font-size: 1.5rem;
+}
+
+.introduction-lineTwo {
+	font-weight: 400;
+	font-size: 1.25rem;
+}
+
+.introduction-lineThree {
+	font-weight: 300;
+	font-size: 1rem;
+}
+
+.components {
+	display: flex;
+	max-width: 75vw;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 2vh;
+}
+
+.component {
+	max-width: 20rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1vh;
+	padding: 1rem;
+	border: 1px solid var(--accent-gray-dark);
+	border-radius: 5px;
+}
+
+.component-link {
+	margin-top: auto;
+	align-self: flex-start;
+}
+
+@media screen and (max-width: 600px) {
+	.introduction {
+		text-align: center;
+	}
+
+	.components {
+		max-width: 100%;
+	}
+}
