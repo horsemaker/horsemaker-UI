@@ -1,120 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Inputs | Horsemaker' UI</title>
-		<link rel="stylesheet" href="../../stylesheets/reset.css" />
-		<link rel="stylesheet" href="../../stylesheets/common.css" />
-		<link rel="stylesheet" href="../../stylesheets/main.css" />
-		<link rel="stylesheet" href="../../stylesheets/docs.css" />
-	</head>
-	<body>
-		<div class="header">
-			<a class="header-link" href="/index.html"
-				><img class="avatar-sm" src="../../assets/horsemaker.svg" alt="🦄" />
-				<h2>Horsemaker's UI</h2>
-			</a>
-		</div>
-		<div class="main inputs">
-			<h1>Inputs</h1>
-			<p>
-				Inputs are necessary for user interaction with the website. Inputs are
-				used to take information from the user, and then save the data.
-			</p>
-			<p>labeled inputs</p>
-			<div class="playground">
-				<form>
-					<div class="input-group input-text">
-						<label for="username">Username</label>
-						<input
-							type="text"
-							name="username"
-							id="username"
-							placeholder="Horsemaker"
-						/>
-					</div>
-					<div class="input-group input-email">
-						<label for="email">Email*</label>
-						<input
-							type="email"
-							name="email"
-							id="email"
-							placeholder="hey@example.com"
-							required
-						/>
-					</div>
-					<div class="input-group input-text">
-						<label for="country">Country</label>
-						<input
-							type="text"
-							name="country"
-							id="country"
-							placeholder="India, USA, etc."
-							value="India"
-							disabled
-						/>
-					</div>
-					<div class="input-group input-text">
-						<label for="city">City</label>
-						<input
-							type="text"
-							name="city"
-							id="city"
-							placeholder="Mumbai, Delhi, etc."
-							value="Mumbai"
-							readonly
-						/>
-					</div>
-				</form>
-			</div>
-			<p>errored / successful inputs</p>
-			<div class="playground">
-				<form>
-					<div class="input-group input-password error">
-						<label for="password">Password*</label>
-						<input type="password" name="password" id="password" required />
-						<div class="validity-message">Minimum 8 characters required!</div>
-					</div>
-					<div class="input-group input-password success">
-						<label for="confirmPassword">Confirm Password*</label>
-						<input
-							type="password"
-							name="confirmPassword"
-							id="confirmPassword"
-							required
-						/>
-						<div class="validity-message">Password Matched!</div>
-					</div>
-				</form>
-			</div>
-			<p>inputs with options</p>
-			<div class="playground">
-				<form>
-					<div class="input-group input-options">
-						<label for="color">Choose a color 👇</label>
-						<input type="text" name="color" id="color" list="colors" />
-						<datalist id="colors">
-							<option value="Orange"></option>
-							<option value="Purple"></option>
-							<option value="Green"></option>
-						</datalist>
-					</div>
-				</form>
-			</div>
-			<p>inputs for date & time</p>
-			<div class="playground">
-				<form>
-					<div class="input-group input-date">
-						<label for="date">Date</label>
-						<input type="date" name="date" id="date" />
-					</div>
-					<div class="input-group input-time">
-						<label for="time">Time</label>
-						<input type="time" name="time" id="time" />
-					</div>
-					<!-- <div class="input-group input-datetime-local">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inputs | Horsemaker' UI</title>
+    <link rel="stylesheet" href="../../stylesheets/reset.css" />
+    <link rel="stylesheet" href="../../stylesheets/common.css" />
+    <link rel="stylesheet" href="../../stylesheets/main.css" />
+    <link rel="stylesheet" href="../../stylesheets/docs.css" />
+  </head>
+  <body>
+    <div class="header">
+      <a class="header-link" href="/index.html"
+        ><img class="avatar-sm" src="../../assets/horsemaker.svg" alt="🦄" />
+        <h2>Horsemaker's UI</h2>
+      </a>
+    </div>
+    <div class="main inputs">
+      <h1>Inputs</h1>
+      <p>
+        Inputs are necessary for user interaction with the website. Inputs are
+        used to take information from the user, and then save the data.
+      </p>
+      <p>labeled inputs</p>
+      <div class="playground">
+        <form>
+          <div class="input-group input-text">
+            <label for="username">Username</label>
+            <input
+              type="text"
+              name="username"
+              id="username"
+              placeholder="Horsemaker"
+            />
+          </div>
+          <div class="input-group input-email">
+            <label for="email">Email*</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="hey@example.com"
+              required
+            />
+          </div>
+          <div class="input-group input-text">
+            <label for="country">Country</label>
+            <input
+              type="text"
+              name="country"
+              id="country"
+              placeholder="India, USA, etc."
+              value="India"
+              disabled
+            />
+          </div>
+          <div class="input-group input-text">
+            <label for="city">City</label>
+            <input
+              type="text"
+              name="city"
+              id="city"
+              placeholder="Mumbai, Delhi, etc."
+              value="Mumbai"
+              readonly
+            />
+          </div>
+        </form>
+      </div>
+      <p>errored / successful inputs</p>
+      <div class="playground">
+        <form>
+          <div class="input-group input-password error">
+            <label for="password">Password*</label>
+            <input type="password" name="password" id="password" required />
+            <div class="validity-message">Minimum 8 characters required!</div>
+          </div>
+          <div class="input-group input-password success">
+            <label for="confirmPassword">Confirm Password*</label>
+            <input
+              type="password"
+              name="confirmPassword"
+              id="confirmPassword"
+              required
+            />
+            <div class="validity-message">Password Matched!</div>
+          </div>
+        </form>
+      </div>
+      <p>inputs with options</p>
+      <div class="playground">
+        <form>
+          <div class="input-group input-options">
+            <label for="color">Choose a color 👇</label>
+            <input type="text" name="color" id="color" list="colors" />
+            <datalist id="colors">
+              <option value="Orange"></option>
+              <option value="Purple"></option>
+              <option value="Green"></option>
+            </datalist>
+          </div>
+        </form>
+      </div>
+      <p>inputs for date & time</p>
+      <div class="playground">
+        <form>
+          <div class="input-group input-date">
+            <label for="date">Date</label>
+            <input type="date" name="date" id="date" />
+          </div>
+          <div class="input-group input-time">
+            <label for="time">Time</label>
+            <input type="time" name="time" id="time" />
+          </div>
+          <!-- <div class="input-group input-datetime-local">
 						<label for="datetime-local">Date & Time</label>
 						<input
 							type="datetime-local"
@@ -122,140 +122,140 @@
 							id="datetime-local"
 						/>
 					</div> -->
-				</form>
-			</div>
-			<p>input for numbers only</p>
-			<div class="playground">
-				<form>
-					<div class="input-group input-number">
-						<label for="number">Number</label>
-						<input type="number" name="number" id="number" placeholder="0" />
-					</div>
-				</form>
-			</div>
-			<p>input to choose a file</p>
-			<div class="playground">
-				<form>
-					<div class="input-group input-file">
-						<label for="file">Upload file</label>
-						<input type="file" name="file" id="file" />
-					</div>
-				</form>
-			</div>
-			<p>textarea</p>
-			<div class="playground">
-				<form>
-					<div class="input-group input-textarea">
-						<label for="review">Review</label>
-						<textarea name="review" id="review" cols="30" rows="5"></textarea>
-					</div>
-				</form>
-			</div>
-			<p>checkbox inputs</p>
-			<div class="playground">
-				<form>
-					<div class="input-group input-checkbox">
-						<input type="checkbox" name="checkbox" id="apple" checked />
-						<label for="apple">Apple</label>
-					</div>
-					<div class="input-group input-checkbox">
-						<input type="checkbox" name="checkbox" id="orange" />
-						<label for="orange">Orange</label>
-					</div>
-					<div class="input-group input-checkbox">
-						<input type="checkbox" name="checkbox" id="pear" disabled />
-						<label for="pear">Pear</label>
-					</div>
-				</form>
-			</div>
-			<p>radio inputs</p>
-			<div class="playground">
-				<form>
-					<div class="input-group input-radio">
-						<input type="radio" name="radio" id="mumbai" checked />
-						<label for="mumbai">Mumbai</label>
-					</div>
-					<div class="input-group input-radio">
-						<input type="radio" name="radio" id="bangalore" />
-						<label for="bangalore">Bangalore</label>
-					</div>
+        </form>
+      </div>
+      <p>input for numbers only</p>
+      <div class="playground">
+        <form>
+          <div class="input-group input-number">
+            <label for="number">Number</label>
+            <input type="number" name="number" id="number" placeholder="0" />
+          </div>
+        </form>
+      </div>
+      <p>input to choose a file</p>
+      <div class="playground">
+        <form>
+          <div class="input-group input-file">
+            <label for="file">Upload file</label>
+            <input type="file" name="file" id="file" />
+          </div>
+        </form>
+      </div>
+      <p>textarea</p>
+      <div class="playground">
+        <form>
+          <div class="input-group input-textarea">
+            <label for="review">Review</label>
+            <textarea name="review" id="review" cols="30" rows="5"></textarea>
+          </div>
+        </form>
+      </div>
+      <p>checkbox inputs</p>
+      <div class="playground">
+        <form>
+          <div class="input-group input-checkbox">
+            <input type="checkbox" name="checkbox" id="apple" checked />
+            <label for="apple">Apple</label>
+          </div>
+          <div class="input-group input-checkbox">
+            <input type="checkbox" name="checkbox" id="orange" />
+            <label for="orange">Orange</label>
+          </div>
+          <div class="input-group input-checkbox">
+            <input type="checkbox" name="checkbox" id="pear" disabled />
+            <label for="pear">Pear</label>
+          </div>
+        </form>
+      </div>
+      <p>radio inputs</p>
+      <div class="playground">
+        <form>
+          <div class="input-group input-radio">
+            <input type="radio" name="radio" id="mumbai" checked />
+            <label for="mumbai">Mumbai</label>
+          </div>
+          <div class="input-group input-radio">
+            <input type="radio" name="radio" id="bangalore" />
+            <label for="bangalore">Bangalore</label>
+          </div>
 
-					<div class="input-group input-radio">
-						<input type="radio" name="radio" id="delhi" disabled />
-						<label for="delhi">Delhi</label>
-					</div>
-				</form>
-			</div>
-			<p>sample form</p>
-			<div class="playground">
-				<form>
-					<h2>Registration</h2>
-					<div class="input-group input-text">
-						<label for="for-username">Username*</label>
-						<input
-							type="text"
-							name="form-username"
-							id="form-username"
-							placeholder="Horsemaker"
-							required
-						/>
-					</div>
-					<div class="input-group input-email">
-						<label for="form-email">Email*</label>
-						<input
-							type="email"
-							name="form-email"
-							id="form-email"
-							placeholder="hey@example.com"
-							required
-						/>
-					</div>
-					<div class="input-group input-password">
-						<label for="form-password">Password*</label>
-						<input
-							type="password"
-							name="form-password"
-							id="form-password"
-							required
-						/>
-					</div>
-					<div class="input-group input-password">
-						<label for="form-confirmPassword">Confirm Password*</label>
-						<input
-							type="password"
-							name="form-confirmPassword"
-							id="form-confirmPassword"
-							required
-						/>
-					</div>
-					<div class="input-submit">
-						<button type="submit" class="btn btn-solid-primary">Sign Up</button>
-					</div>
-				</form>
-			</div>
-		</div>
-		<footer>
-			<span
-				>created by
-				<a
-					class="hl hl-warning"
-					target="_blank"
-					href="https://peerlist.io/horsemaker"
-					>horsemaker</a
-				></span
-			>
-			<span> - </span>
-			<span
-				>credits to
-				<a class="hl hl-warning" target="_blank" href="https://neog.camp/"
-					>neoG Camp</a
-				></span
-			>
-		</footer>
-		<script>
-			document
-				.querySelector('.btn')
-				.addEventListener('click', (e) => e.preventDefault())
-		</script>
-	</body>
+          <div class="input-group input-radio">
+            <input type="radio" name="radio" id="delhi" disabled />
+            <label for="delhi">Delhi</label>
+          </div>
+        </form>
+      </div>
+      <p>sample form</p>
+      <div class="playground">
+        <form>
+          <h2>Registration</h2>
+          <div class="input-group input-text">
+            <label for="for-username">Username*</label>
+            <input
+              type="text"
+              name="form-username"
+              id="form-username"
+              placeholder="Horsemaker"
+              required
+            />
+          </div>
+          <div class="input-group input-email">
+            <label for="form-email">Email*</label>
+            <input
+              type="email"
+              name="form-email"
+              id="form-email"
+              placeholder="hey@example.com"
+              required
+            />
+          </div>
+          <div class="input-group input-password">
+            <label for="form-password">Password*</label>
+            <input
+              type="password"
+              name="form-password"
+              id="form-password"
+              required
+            />
+          </div>
+          <div class="input-group input-password">
+            <label for="form-confirmPassword">Confirm Password*</label>
+            <input
+              type="password"
+              name="form-confirmPassword"
+              id="form-confirmPassword"
+              required
+            />
+          </div>
+          <div class="input-submit">
+            <button type="submit" class="btn btn-solid-primary">Sign Up</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <span
+        >created by
+        <a
+          class="hl hl-warning"
+          target="_blank"
+          href="https://peerlist.io/horsemaker"
+          >horsemaker</a
+        ></span
+      >
+      <span> - </span>
+      <span
+        >credits to
+        <a class="hl hl-warning" target="_blank" href="https://neog.camp/"
+          >neoG Camp</a
+        ></span
+      >
+    </footer>
+    <script>
+      document
+        .querySelector('.btn')
+        .addEventListener('click', (e) => e.preventDefault())
+    </script>
+  </body>
 </html>

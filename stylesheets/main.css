@@ -17,87 +17,87 @@
 
 /* Colors */
 :root {
-	--color-background-darker: #232629;
-	--color-background-dark: #2a2d32;
-	--color-background: #2f3237;
+  --color-background-darker: #232629;
+  --color-background-dark: #2a2d32;
+  --color-background: #2f3237;
 
-	--color-foreground: #e5eaf0;
-	--accents-1: #ced3d8;
-	--accents-2: #acb0b4;
-	--accents-3: #898c90;
-	--accents-4: #707376;
+  --color-foreground: #e5eaf0;
+  --accents-1: #ced3d8;
+  --accents-2: #acb0b4;
+  --accents-3: #898c90;
+  --accents-4: #707376;
 
-	--playground-color: #333333;
+  --playground-color: #333333;
 
-	/* Error */
-	--color-error-lighter: #f7d4d6;
-	--color-error-light: #f33;
-	--color-error: #e60000;
-	--color-error-dark: #ad0000;
-	/* Error */
+  /* Error */
+  --color-error-lighter: #f7d4d6;
+  --color-error-light: #f33;
+  --color-error: #e60000;
+  --color-error-dark: #ad0000;
+  /* Error */
 
-	--color-success: #047857;
-	/* Success */
-	--color-success-lighter: #a7f3d0;
-	--color-success-light: #10b981;
-	--color-success: #047857;
-	--color-success-dark: #065f46;
-	/* Success */
+  --color-success: #047857;
+  /* Success */
+  --color-success-lighter: #a7f3d0;
+  --color-success-light: #10b981;
+  --color-success: #047857;
+  --color-success-dark: #065f46;
+  /* Success */
 
-	/* Warning */
-	--color-warning-lighter: #ffefcf;
-	--color-warning-light: #f7b955;
-	--color-warning: #ab570a;
-	--color-warning-dark: #804108;
-	/* Warning */
+  /* Warning */
+  --color-warning-lighter: #ffefcf;
+  --color-warning-light: #f7b955;
+  --color-warning: #ab570a;
+  --color-warning-dark: #804108;
+  /* Warning */
 
-	/* Blue */
-	--color-blue-lighter: #d3e5ff;
-	--color-blue-light: #3291ff;
-	--color-blue: #0761d1;
-	--color-blue-dark: #05499d;
-	/* Blue */
+  /* Blue */
+  --color-blue-lighter: #d3e5ff;
+  --color-blue-light: #3291ff;
+  --color-blue: #0761d1;
+  --color-blue-dark: #05499d;
+  /* Blue */
 
-	/* Violet */
-	--color-violet-lighter: #d8ccf1;
-	--color-violet-light: #8a63d2;
-	--color-violet: #7928ca;
-	--color-violet-dark: #4c2889;
-	/* Violet */
+  /* Violet */
+  --color-violet-lighter: #d8ccf1;
+  --color-violet-light: #8a63d2;
+  --color-violet: #7928ca;
+  --color-violet-dark: #4c2889;
+  /* Violet */
 
-	--letter-spacing: 0.5px;
+  --letter-spacing: 0.5px;
 }
 /* Colors */
 
 /* Highlights */
 
 .hl {
-	display: inline-block;
-	margin-top: 2px;
-	margin-bottom: 2px;
-	padding: 0.2rem 0.4rem;
-	border-radius: 5px;
-	font-weight: 500;
+  display: inline-block;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  padding: 0.2rem 0.4rem;
+  border-radius: 5px;
+  font-weight: 500;
 }
 
 .hl-error {
-	background-color: var(--color-error);
+  background-color: var(--color-error);
 }
 
 .hl-success {
-	background-color: var(--color-success);
+  background-color: var(--color-success);
 }
 
 .hl-warning {
-	background-color: var(--color-warning);
+  background-color: var(--color-warning);
 }
 
 .hl-blue {
-	background-color: var(--color-blue);
+  background-color: var(--color-blue);
 }
 
 .hl-violet {
-	background-color: var(--color-violet);
+  background-color: var(--color-violet);
 }
 
 /* Highlights */
