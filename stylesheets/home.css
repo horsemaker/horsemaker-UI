@@ -49,7 +49,7 @@ body {
 	flex-direction: column;
 	gap: 1vh;
 	padding: 1rem;
-	border: 1px solid var(--accent-gray-dark);
+	border: 1px solid var(--accents-4);
 	border-radius: 5px;
 }
 
