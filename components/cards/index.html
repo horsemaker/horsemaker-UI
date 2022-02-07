@@ -1,343 +1,304 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Cards | Horsemaker's UI</title>
-		<link rel="stylesheet" href="../../reset.css" />
-		<link rel="stylesheet" href="../../default.css" />
-		<link rel="stylesheet" href="../../main.css" />
-		<link rel="stylesheet" href="style.css" />
-	</head>
-	<body>
-		<div class="header">
-			<a class="header-link" href="/index.html"
-				><img
-					class="avatar-sm"
-					src="../../assets/horsemaker.svg"
-					alt="🦄"
-				/>
-				<h2>Horsemaker's UI</h2>
-			</a>
-		</div>
-		<div class="main cards">
-			<h1>Cards</h1>
-			<p>Card are used to show user related data collectively.</p>
-			<p>basic</p>
-			<div class="playground">
-				<div class="card card-vertical">
-					<img
-						src="../../assets/Bose Headphones.png"
-						alt="headphones"
-						class="card-media"
-					/>
-					<div class="card-primary">
-						<h2 class="card-title">Headphones</h2>
-						<h3 class="card-subtitle">by Horsemaker</h3>
-					</div>
-					<div class="card-secondary">
-						Let's unleash the power of music so you can live life to
-						the fullest wherever and whenever.
-					</div>
-					<div class="card-actions">
-						<div class="card-action-buttons">
-							<button class="card-action-button">Buy</button>
-							<button class="card-action-button">
-								Add to Cart
-							</button>
-						</div>
-						<div class="card-action-icons">
-							<button class="card-action-icon top-right">
-								<span class="material-icons">
-									favorite_border
-								</span>
-							</button>
-							<button class="card-action-icon">
-								<span class="material-icons"> share </span>
-							</button>
-						</div>
-					</div>
-				</div>
-			</div>
-			<p>card with badge</p>
-			<div class="playground">
-				<div class="card card-vertical card-relative">
-					<img
-						src="../../assets/Bose Headphones.png"
-						alt="headphones"
-						class="card-media"
-					/>
-					<div class="card-primary">
-						<h2 class="card-title">Headphones</h2>
-						<h3 class="card-subtitle">by Horsemaker</h3>
-					</div>
-					<div class="card-secondary">
-						Let's unleash the power of music so you can live life to
-						the fullest wherever and whenever.
-					</div>
-					<div class="card-actions">
-						<div class="card-action-buttons">
-							<button class="card-action-button">Buy</button>
-							<button class="card-action-button">
-								Add to Cart
-							</button>
-						</div>
-						<div class="card-action-icons">
-							<button class="card-action-icon top-right">
-								<span class="material-icons">
-									favorite_border
-								</span>
-							</button>
-							<button class="card-action-icon">
-								<span class="material-icons"> share </span>
-							</button>
-						</div>
-					</div>
-					<div class="card-badge hl hl-warning">Bestseller</div>
-				</div>
-			</div>
-			<p>card with dismiss</p>
-			<div class="playground">
-				<div class="card card-vertical card-relative">
-					<div class="card-primary">
-						<img
-							src="../../assets/Bose Headphones.png"
-							alt="headphones"
-							class="card-media"
-						/>
-						<div class="card-details">
-							<h2 class="card-title">Headphones</h2>
-							<h3 class="card-subtitle">by Horsemaker</h3>
-						</div>
-					</div>
-					<div class="card-secondary">
-						Let's unleash the power of music so you can live life to
-						the fullest wherever and whenever.
-					</div>
-					<div class="card-actions">
-						<div class="card-action-buttons">
-							<button class="card-action-button">Read</button>
-							<button class="card-action-button">
-								Add to Cart
-							</button>
-						</div>
-						<div class="card-action-icons">
-							<button class="card-action-icon">
-								<span class="material-icons">
-									favorite_border
-								</span>
-							</button>
-							<button class="card-action-icon">
-								<span class="material-icons"> share </span>
-							</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cards | Horsemaker's UI</title>
+    <link rel="stylesheet" href="../../stylesheets/reset.css" />
+    <link rel="stylesheet" href="../../stylesheets/common.css" />
+    <link rel="stylesheet" href="../../stylesheets/main.css" />
+    <link rel="stylesheet" href="../../stylesheets/docs.css" />
+  </head>
+  <body>
+    <div class="header">
+      <a class="header-link" href="/index.html"
+        ><img class="avatar-sm" src="../../assets/horsemaker.svg" alt="🦄" />
+        <h2>Horsemaker's UI</h2>
+      </a>
+    </div>
+    <div class="main cards">
+      <h1>Cards</h1>
+      <p>Card are used to show user related data collectively.</p>
+      <p>basic</p>
+      <div class="playground">
+        <div class="card card-vertical">
+          <img
+            src="../../assets/Headphones.png"
+            alt="headphones"
+            class="card-media"
+          />
+          <div class="card-primary">
+            <h2 class="card-title">Headphones</h2>
+            <h3 class="card-subtitle">by Horsemaker</h3>
+          </div>
+          <div class="card-secondary">
+            Let's unleash the power of music so you can live life to the fullest
+            wherever and whenever.
+          </div>
+          <div class="card-actions">
+            <div class="card-action-buttons">
+              <button class="card-action-button">Buy</button>
+              <button class="card-action-button">Add to Cart</button>
+            </div>
+            <div class="card-action-icons">
+              <button class="card-action-icon top-right">
+                <span class="material-icons"> favorite_border </span>
+              </button>
+              <button class="card-action-icon">
+                <span class="material-icons"> share </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p>card with badge</p>
+      <div class="playground">
+        <div class="card card-vertical card-relative">
+          <img
+            src="../../assets/Headphones.png"
+            alt="headphones"
+            class="card-media"
+          />
+          <div class="card-primary">
+            <h2 class="card-title">Headphones</h2>
+            <h3 class="card-subtitle">by Horsemaker</h3>
+          </div>
+          <div class="card-secondary">
+            Let's unleash the power of music so you can live life to the fullest
+            wherever and whenever.
+          </div>
+          <div class="card-actions">
+            <div class="card-action-buttons">
+              <button class="card-action-button">Buy</button>
+              <button class="card-action-button">Add to Cart</button>
+            </div>
+            <div class="card-action-icons">
+              <button class="card-action-icon top-right">
+                <span class="material-icons"> favorite_border </span>
+              </button>
+              <button class="card-action-icon">
+                <span class="material-icons"> share </span>
+              </button>
+            </div>
+          </div>
+          <div class="card-badge hl hl-warning">Bestseller</div>
+        </div>
+      </div>
+      <p>card with dismiss</p>
+      <div class="playground">
+        <div class="card card-vertical card-relative">
+          <div class="card-primary">
+            <img
+              src="../../assets/Headphones.png"
+              alt="headphones"
+              class="card-media"
+            />
+            <div class="card-details">
+              <h2 class="card-title">Headphones</h2>
+              <h3 class="card-subtitle">by Horsemaker</h3>
+            </div>
+          </div>
+          <div class="card-secondary">
+            Let's unleash the power of music so you can live life to the fullest
+            wherever and whenever.
+          </div>
+          <div class="card-actions">
+            <div class="card-action-buttons">
+              <button class="card-action-button">Read</button>
+              <button class="card-action-button">Add to Cart</button>
+            </div>
+            <div class="card-action-icons">
+              <button class="card-action-icon">
+                <span class="material-icons"> favorite_border </span>
+              </button>
+              <button class="card-action-icon">
+                <span class="material-icons"> share </span>
+              </button>
 
-							<button class="card-action-icon top-right">
-								<span class="material-icons"> close </span>
-							</button>
-						</div>
-					</div>
-				</div>
-			</div>
-			<p>card with text overlay</p>
-			<div class="playground">
-				<div class="card card-vertical">
-					<div class="card-primary card-relative-media">
-						<img
-							src="../../assets/Bose Headphones.png"
-							alt="headphones"
-							class="card-media"
-						/>
-						<div class="card-details text-overlay">
-							<h2 class="card-title">Headphones</h2>
-							<h3 class="card-subtitle">by Horsemaker</h3>
-						</div>
-					</div>
-					<div class="card-secondary">
-						Let's unleash the power of music so you can live life to
-						the fullest wherever and whenever.
-					</div>
-					<div class="card-actions">
-						<div class="card-action-buttons">
-							<button class="card-action-button">Buy</button>
-							<button class="card-action-button">
-								Add to Cart
-							</button>
-						</div>
-						<div class="card-action-icons">
-							<button class="card-action-icon top-right">
-								<span class="material-icons">
-									favorite_border
-								</span>
-							</button>
-							<button class="card-action-icon">
-								<span class="material-icons"> share </span>
-							</button>
-						</div>
-					</div>
-				</div>
-			</div>
-			<p>text only card</p>
-			<div class="playground">
-				<div class="card card-vertical">
-					<img
-						src="../../assets/Headphones.png"
-						alt="headphones"
-						class="card-media hide-media"
-					/>
-					<div class="card-primary">
-						<h2 class="card-title">Headphones</h2>
-						<h3 class="card-subtitle">by Horsemaker</h3>
-					</div>
-					<div class="card-secondary">
-						Let's unleash the power of music so you can live life to
-						the fullest wherever and whenever.
-					</div>
-					<div class="card-actions">
-						<div class="card-action-buttons">
-							<button class="card-action-button">Buy</button>
-							<button class="card-action-button">
-								Add to Cart
-							</button>
-						</div>
-						<div class="card-action-icons">
-							<button class="card-action-icon">
-								<span class="material-icons">
-									favorite_border
-								</span>
-							</button>
-							<button class="card-action-icon">
-								<span class="material-icons"> share </span>
-							</button>
-						</div>
-					</div>
-				</div>
-			</div>
-			<p>vertical cards</p>
-			<div class="playground">
-				<div class="card card-vertical">
-					<div class="card-primary">
-						<img
-							src="../../assets/Bose Headphones.png"
-							alt="headphones"
-							class="card-media"
-						/>
-						<div class="card-details">
-							<h2 class="card-title">Headphones</h2>
-							<h3 class="card-subtitle">by Horsemaker</h3>
-						</div>
-					</div>
-					<div class="card-secondary">
-						Let's unleash the power of music so you can live life to
-						the fullest wherever and whenever.
-					</div>
-					<div class="card-actions">
-						<div class="card-action-buttons">
-							<button class="card-action-button">Buy</button>
-							<button class="card-action-button">
-								Add to Cart
-							</button>
-						</div>
-						<div class="card-action-icons">
-							<button class="card-action-icon">
-								<span class="material-icons">
-									favorite_border
-								</span>
-							</button>
-							<button class="card-action-icon">
-								<span class="material-icons"> share </span>
-							</button>
-						</div>
-					</div>
-				</div>
-				<div class="card card-vertical">
-					<img
-						src="../../assets/Bose Headphones.png"
-						alt="headphones"
-						class="card-media"
-					/>
-					<div class="card-primary card-order-first">
-						<h2 class="card-title">Headphones</h2>
-						<h3 class="card-subtitle">by Horsemaker</h3>
-					</div>
-					<div class="card-secondary">
-						Let's unleash the power of music so you can live life to
-						the fullest wherever and whenever.
-					</div>
+              <button class="card-action-icon top-right">
+                <span class="material-icons"> close </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p>card with text overlay</p>
+      <div class="playground">
+        <div class="card card-vertical">
+          <div class="card-primary card-relative-media">
+            <img
+              src="../../assets/Headphones.png"
+              alt="headphones"
+              class="card-media"
+            />
+            <div class="card-details text-overlay">
+              <h2 class="card-title">Headphones</h2>
+              <h3 class="card-subtitle">by Horsemaker</h3>
+            </div>
+          </div>
+          <div class="card-secondary">
+            Let's unleash the power of music so you can live life to the fullest
+            wherever and whenever.
+          </div>
+          <div class="card-actions">
+            <div class="card-action-buttons">
+              <button class="card-action-button">Buy</button>
+              <button class="card-action-button">Add to Cart</button>
+            </div>
+            <div class="card-action-icons">
+              <button class="card-action-icon top-right">
+                <span class="material-icons"> favorite_border </span>
+              </button>
+              <button class="card-action-icon">
+                <span class="material-icons"> share </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p>text only card</p>
+      <div class="playground">
+        <div class="card card-vertical">
+          <img
+            src="../../assets/Headphones.png"
+            alt="headphones"
+            class="card-media hide-media"
+          />
+          <div class="card-primary">
+            <h2 class="card-title">Headphones</h2>
+            <h3 class="card-subtitle">by Horsemaker</h3>
+          </div>
+          <div class="card-secondary">
+            Let's unleash the power of music so you can live life to the fullest
+            wherever and whenever.
+          </div>
+          <div class="card-actions">
+            <div class="card-action-buttons">
+              <button class="card-action-button">Buy</button>
+              <button class="card-action-button">Add to Cart</button>
+            </div>
+            <div class="card-action-icons">
+              <button class="card-action-icon">
+                <span class="material-icons"> favorite_border </span>
+              </button>
+              <button class="card-action-icon">
+                <span class="material-icons"> share </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p>vertical cards</p>
+      <div class="playground">
+        <div class="card card-vertical">
+          <div class="card-primary">
+            <img
+              src="../../assets/Headphones.png"
+              alt="headphones"
+              class="card-media"
+            />
+            <div class="card-details">
+              <h2 class="card-title">Headphones</h2>
+              <h3 class="card-subtitle">by Horsemaker</h3>
+            </div>
+          </div>
+          <div class="card-secondary">
+            Let's unleash the power of music so you can live life to the fullest
+            wherever and whenever.
+          </div>
+          <div class="card-actions">
+            <div class="card-action-buttons">
+              <button class="card-action-button">Buy</button>
+              <button class="card-action-button">Add to Cart</button>
+            </div>
+            <div class="card-action-icons">
+              <button class="card-action-icon">
+                <span class="material-icons"> favorite_border </span>
+              </button>
+              <button class="card-action-icon">
+                <span class="material-icons"> share </span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card card-vertical">
+          <img
+            src="../../assets/Headphones.png"
+            alt="headphones"
+            class="card-media"
+          />
+          <div class="card-primary card-order-first">
+            <h2 class="card-title">Headphones</h2>
+            <h3 class="card-subtitle">by Horsemaker</h3>
+          </div>
+          <div class="card-secondary">
+            Let's unleash the power of music so you can live life to the fullest
+            wherever and whenever.
+          </div>
 
-					<div class="card-actions">
-						<div class="card-action-buttons">
-							<button class="card-action-button">Buy</button>
-							<button class="card-action-button">
-								Add to Cart
-							</button>
-						</div>
-						<div class="card-action-icons">
-							<button class="card-action-icon">
-								<span class="material-icons">
-									favorite_border
-								</span>
-							</button>
+          <div class="card-actions">
+            <div class="card-action-buttons">
+              <button class="card-action-button">Buy</button>
+              <button class="card-action-button">Add to Cart</button>
+            </div>
+            <div class="card-action-icons">
+              <button class="card-action-icon">
+                <span class="material-icons"> favorite_border </span>
+              </button>
 
-							<button class="card-action-icon">
-								<span class="material-icons"> share </span>
-							</button>
-						</div>
-					</div>
-				</div>
-			</div>
-			<p>horizontal card</p>
-			<div class="playground">
-				<div class="card card-horizontal">
-					<img
-						src="../../assets/Bose Headphones.png"
-						alt="headphones"
-						class="card-media"
-					/>
-					<div class="card-info">
-						<div class="card-primary">
-							<h2 class="card-title">Headphones</h2>
-							<h3 class="card-subtitle">by Horsemaker</h3>
-						</div>
-						<div class="card-actions">
-							<div class="card-action-buttons">
-								<button class="card-action-button">Buy</button>
-								<button class="card-action-button">
-									Add to Cart
-								</button>
-							</div>
-							<div class="card-action-icons">
-								<button class="card-action-icon top-left">
-									<span class="material-icons">
-										favorite_border
-									</span>
-								</button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<footer>
-			<span
-				>created by
-				<a
-					class="hl hl-warning"
-					target="_blank"
-					href="https://peerlist.io/horsemaker"
-					>horsemaker</a
-				></span
-			>
-			<span> - </span>
-			<span
-				>credits to
-				<a
-					class="hl hl-warning"
-					target="_blank"
-					href="https://neog.camp/"
-					>neoG Camp</a
-				></span
-			>
-		</footer>
-	</body>
+              <button class="card-action-icon">
+                <span class="material-icons"> share </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p>horizontal card</p>
+      <div class="playground">
+        <div class="card card-horizontal">
+          <img
+            src="../../assets/Headphones.png"
+            alt="headphones"
+            class="card-media"
+          />
+          <div class="card-info">
+            <div class="card-primary">
+              <h2 class="card-title">Headphones</h2>
+              <h3 class="card-subtitle">by Horsemaker</h3>
+            </div>
+            <div class="card-actions">
+              <div class="card-action-buttons">
+                <button class="card-action-button">Buy</button>
+                <button class="card-action-button">Add to Cart</button>
+              </div>
+              <div class="card-action-icons">
+                <button class="card-action-icon top-left">
+                  <span class="material-icons"> favorite_border </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <span
+        >created by
+        <a
+          class="hl hl-warning"
+          target="_blank"
+          href="https://peerlist.io/horsemaker"
+          >horsemaker</a
+        ></span
+      >
+      <span> - </span>
+      <span
+        >credits to
+        <a class="hl hl-warning" target="_blank" href="https://neog.camp/"
+          >neoG Camp</a
+        ></span
+      >
+    </footer>
+  </body>
 </html>

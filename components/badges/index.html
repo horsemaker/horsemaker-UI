@@ -1,153 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Badges | Horsemaker's UI</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Badges | Horsemaker's UI</title>
 
-		<link rel="stylesheet" href="../../reset.css" />
-		<link rel="stylesheet" href="../../default.css" />
-		<link rel="stylesheet" href="../../main.css" />
-		<link rel="stylesheet" href="style.css" />
-	</head>
+    <link rel="stylesheet" href="../../stylesheets/reset.css" />
+    <link rel="stylesheet" href="../../stylesheets/common.css" />
+    <link rel="stylesheet" href="../../stylesheets/main.css" />
+    <link rel="stylesheet" href="../../stylesheets/docs.css" />
+  </head>
 
-	<body>
-		<div class="header">
-			<a class="header-link" href="/index.html"
-				><img
-					class="avatar-sm"
-					src="../../assets/horsemaker.svg"
-					alt="🦄"
-				/>
-				<h2>Horsemaker's UI</h2>
-			</a>
-		</div>
-		<div class="main badges">
-			<h1>Badges</h1>
-			<p>
-				Badges are being used to display the status information or the
-				notification count.
-			</p>
-			<!-- Text with a badge -->
-			<p>Text with a badge</p>
-			<div class="playground">
-				<span class="badge">
-					Alerts
-					<span
-						class="badge-content badge-small badge-right badge-warning"
-						>4</span
-					>
-				</span>
-			</div>
-			<!-- Text with large badge -->
-			<p>Text with large badge</p>
-			<div class="playground">
-				<span class="badge">
-					Alerts
-					<span
-						class="badge-content badge-large badge-right badge-violet"
-						>4</span
-					>
-				</span>
-			</div>
-			<div class="playground">
-				<span class="badge">
-					Alerts
-					<span
-						class="badge-content badge-large badge-left badge-success"
-						>4</span
-					>
-				</span>
-			</div>
-			<!-- Button with a badge on the left -->
-			<p>Button with a badge on the left</p>
-			<div class="playground">
-				<button class="badge badge-button">
-					Action
-					<span
-						class="badge-content badge-small badge-left badge-error"
-						>8</span
-					>
-				</button>
-				<button class="badge btn btn-solid-primary">
-					Action
-					<span
-						class="badge-content badge-small badge-left badge-error"
-						>8</span
-					>
-				</button>
-			</div>
-			<!-- Icon with a badge -->
-			<p>Icon with a badge</p>
-			<div class="playground">
-				<span class="badge badge-icon"
-					><span class="material-icons"> home</span>
-					<span
-						class="badge-content badge-small badge-blue badge-right"
-						>5</span
-					></span
-				>
-			</div>
-			<p>Badges on Avatars</p>
-			<div class="playground">
-				<span class="badge badge-avatar">
-					<img
-						class="avatar-round avatar-lg"
-						src="../../assets/avatarOne.png"
-						alt="avatar"
-					/>
-					<span class="badge-content status-lg status-online"></span>
-				</span>
+  <body>
+    <div class="header">
+      <a class="header-link" href="/index.html"
+        ><img class="avatar-sm" src="../../assets/horsemaker.svg" alt="🦄" />
+        <h2>Horsemaker's UI</h2>
+      </a>
+    </div>
+    <div class="main badges">
+      <h1>Badges</h1>
+      <p>
+        Badges are being used to display the status information or the
+        notification count.
+      </p>
+      <!-- Text with a badge -->
+      <p>Text with a badge</p>
+      <div class="playground">
+        <span class="badge">
+          Alerts
+          <span class="badge-content badge-small badge-right badge-warning"
+            >4</span
+          >
+        </span>
+      </div>
+      <!-- Text with large badge -->
+      <p>Text with large badge</p>
+      <div class="playground">
+        <span class="badge">
+          Alerts
+          <span class="badge-content badge-large badge-right badge-violet"
+            >4</span
+          >
+        </span>
+      </div>
+      <div class="playground">
+        <span class="badge">
+          Alerts
+          <span class="badge-content badge-large badge-left badge-success"
+            >4</span
+          >
+        </span>
+      </div>
+      <!-- Button with a badge on the left -->
+      <p>Button with a badge on the left</p>
+      <div class="playground">
+        <button class="badge badge-button">
+          Action
+          <span class="badge-content badge-small badge-left badge-error"
+            >8</span
+          >
+        </button>
+        <button class="badge btn btn-solid-primary">
+          Action
+          <span class="badge-content badge-small badge-left badge-error"
+            >8</span
+          >
+        </button>
+      </div>
+      <!-- Icon with a badge -->
+      <p>Icon with a badge</p>
+      <div class="playground">
+        <span class="badge badge-icon"
+          ><span class="material-icons"> home</span>
+          <span class="badge-content badge-small badge-blue badge-right"
+            >5</span
+          ></span
+        >
+      </div>
+      <p>Badges on Avatars</p>
+      <div class="playground">
+        <span class="badge badge-avatar">
+          <img
+            class="avatar-round avatar-lg"
+            src="../../assets/avatarOne.png"
+            alt="avatar"
+          />
+          <span class="badge-content status-lg status-online"></span>
+        </span>
 
-				<span class="badge badge-avatar">
-					<img
-						class="avatar-round avatar-md"
-						src="../../assets/avatarTwo.png"
-						alt="avatar"
-					/>
-					<span class="badge-content status-md status-idle"></span>
-				</span>
+        <span class="badge badge-avatar">
+          <img
+            class="avatar-round avatar-md"
+            src="../../assets/avatarTwo.png"
+            alt="avatar"
+          />
+          <span class="badge-content status-md status-idle"></span>
+        </span>
 
-				<span class="badge badge-avatar">
-					<img
-						class="avatar-round avatar-sm"
-						src="../../assets/avatarThree.png"
-						alt="avatar"
-					/>
-					<span class="badge-content status-sm status-offline"></span>
-				</span>
+        <span class="badge badge-avatar">
+          <img
+            class="avatar-round avatar-sm"
+            src="../../assets/avatarThree.png"
+            alt="avatar"
+          />
+          <span class="badge-content status-sm status-offline"></span>
+        </span>
 
-				<span class="badge badge-avatar">
-					<img
-						class="avatar-round avatar-xs"
-						src="../../assets/avatarFour.png"
-						alt="avatar"
-					/>
-					<span class="badge-content status-xs status-dnd"></span>
-				</span>
-			</div>
-		</div>
-		<footer>
-			<span
-				>created by
-				<a
-					class="hl hl-warning"
-					target="_blank"
-					href="https://peerlist.io/horsemaker"
-					>horsemaker</a
-				></span
-			>
-			<span> - </span>
-			<span
-				>credits to
-				<a
-					class="hl hl-warning"
-					target="_blank"
-					href="https://neog.camp/"
-					>neoG Camp</a
-				></span
-			>
-		</footer>
-	</body>
+        <span class="badge badge-avatar">
+          <img
+            class="avatar-round avatar-xs"
+            src="../../assets/avatarFour.png"
+            alt="avatar"
+          />
+          <span class="badge-content status-xs status-dnd"></span>
+        </span>
+      </div>
+    </div>
+    <footer>
+      <span
+        >created by
+        <a
+          class="hl hl-warning"
+          target="_blank"
+          href="https://peerlist.io/horsemaker"
+          >horsemaker</a
+        ></span
+      >
+      <span> - </span>
+      <span
+        >credits to
+        <a class="hl hl-warning" target="_blank" href="https://neog.camp/"
+          >neoG Camp</a
+        ></span
+      >
+    </footer>
+  </body>
 </html>
