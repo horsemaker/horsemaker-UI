@@ -6,6 +6,10 @@ body {
   gap: 5vh 0;
 }
 
+.title {
+  word-wrap: break-word;
+}
+
 .introduction {
   display: flex;
   flex-wrap: wrap;
