@@ -6,7 +6,7 @@
 }
 
 .btn-link {
-	background-color: var(--geist-blue);
+	background-color: var(--color-blue);
 }
 
 .btn-icon {
@@ -17,59 +17,59 @@
 }
 
 .btn-solid-primary {
-	background-color: var(--geist-blue);
+	background-color: var(--color-blue);
 }
 
 .btn-solid-warning {
-	background-color: var(--geist-warning);
+	background-color: var(--color-warning);
 }
 
 .btn-solid-danger {
-	background-color: var(--geist-error);
+	background-color: var(--color-error);
 }
 
 .btn-solid-safe {
-	background-color: var(--geist-success);
+	background-color: var(--color-success);
 }
 
 .btn-solid-violet {
-	background-color: var(--geist-violet);
+	background-color: var(--color-violet);
 }
 
 .btn-outline-primary {
-	border: 1px solid var(--geist-blue);
+	border: 1px solid var(--color-blue);
 	background-color: transparent;
 }
 
 .btn-outline-primary:hover {
-	background-color: var(--geist-blue);
+	background-color: var(--color-blue);
 }
 
 .btn-outline-warning {
-	border: 1px solid var(--geist-warning);
+	border: 1px solid var(--color-warning);
 	background-color: transparent;
 }
 
 .btn-outline-warning:hover {
-	background-color: var(--geist-warning);
+	background-color: var(--color-warning);
 }
 
 .btn-outline-danger {
-	border: 1px solid var(--geist-error);
+	border: 1px solid var(--color-error);
 	background-color: transparent;
 }
 
 .btn-outline-danger:hover {
-	background-color: var(--geist-error);
+	background-color: var(--color-error);
 }
 
 .btn-outline-safe {
-	border: 1px solid var(--geist-success);
+	border: 1px solid var(--color-success);
 	background-color: transparent;
 }
 
 .btn-outline-safe:hover {
-	background-color: var(--geist-success);
+	background-color: var(--color-success);
 }
 
 .btn-float {

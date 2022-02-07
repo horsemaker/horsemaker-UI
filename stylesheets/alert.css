@@ -9,19 +9,19 @@
 }
 
 .alert-primary {
-	background-color: var(--geist-blue);
+	background-color: var(--color-blue);
 }
 
 .alert-warning {
-	background-color: var(--geist-warning);
+	background-color: var(--color-warning);
 }
 
 .alert-error {
-	background-color: var(--geist-error);
+	background-color: var(--color-error);
 }
 
 .alert-success {
-	background-color: var(--geist-success);
+	background-color: var(--color-success);
 }
 
 .alert-content {

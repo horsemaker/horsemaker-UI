@@ -17,11 +17,11 @@
 
 /* Colors */
 :root {
-	--geist-background-darker: #232629;
-	--geist-background-dark: #2a2d32;
-	--geist-background: #2f3237;
+	--color-background-darker: #232629;
+	--color-background-dark: #2a2d32;
+	--color-background: #2f3237;
 
-	--geist-foreground: #e5eaf0;
+	--color-foreground: #e5eaf0;
 	--accents-1: #ced3d8;
 	--accents-2: #acb0b4;
 	--accents-3: #898c90;
@@ -30,39 +30,39 @@
 	--playground-color: #333333;
 
 	/* Error */
-	--geist-error-lighter: #f7d4d6;
-	--geist-error-light: #f33;
-	--geist-error: #e60000;
-	--geist-error-dark: #ad0000;
+	--color-error-lighter: #f7d4d6;
+	--color-error-light: #f33;
+	--color-error: #e60000;
+	--color-error-dark: #ad0000;
 	/* Error */
 
-	--geist-success: #047857;
+	--color-success: #047857;
 	/* Success */
-	--geist-success-lighter: #a7f3d0;
-	--geist-success-light: #10b981;
-	--geist-success: #047857;
-	--geist-success-dark: #065f46;
+	--color-success-lighter: #a7f3d0;
+	--color-success-light: #10b981;
+	--color-success: #047857;
+	--color-success-dark: #065f46;
 	/* Success */
 
 	/* Warning */
-	--geist-warning-lighter: #ffefcf;
-	--geist-warning-light: #f7b955;
-	--geist-warning: #ab570a;
-	--geist-warning-dark: #804108;
+	--color-warning-lighter: #ffefcf;
+	--color-warning-light: #f7b955;
+	--color-warning: #ab570a;
+	--color-warning-dark: #804108;
 	/* Warning */
 
 	/* Blue */
-	--geist-blue-lighter: #d3e5ff;
-	--geist-blue-light: #3291ff;
-	--geist-blue: #0761d1;
-	--geist-blue-dark: #05499d;
+	--color-blue-lighter: #d3e5ff;
+	--color-blue-light: #3291ff;
+	--color-blue: #0761d1;
+	--color-blue-dark: #05499d;
 	/* Blue */
 
 	/* Violet */
-	--geist-violet-lighter: #d8ccf1;
-	--geist-violet-light: #8a63d2;
-	--geist-violet: #7928ca;
-	--geist-violet-dark: #4c2889;
+	--color-violet-lighter: #d8ccf1;
+	--color-violet-light: #8a63d2;
+	--color-violet: #7928ca;
+	--color-violet-dark: #4c2889;
 	/* Violet */
 
 	--letter-spacing: 0.5px;
@@ -81,23 +81,23 @@
 }
 
 .hl-error {
-	background-color: var(--geist-error);
+	background-color: var(--color-error);
 }
 
 .hl-success {
-	background-color: var(--geist-success);
+	background-color: var(--color-success);
 }
 
 .hl-warning {
-	background-color: var(--geist-warning);
+	background-color: var(--color-warning);
 }
 
 .hl-blue {
-	background-color: var(--geist-blue);
+	background-color: var(--color-blue);
 }
 
 .hl-violet {
-	background-color: var(--geist-violet);
+	background-color: var(--color-violet);
 }
 
 /* Highlights */

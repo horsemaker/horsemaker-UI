@@ -18,12 +18,12 @@ textarea:focus {
 }
 
 input[type='email']:valid {
-	background-color: var(--geist-success-lighter);
-	color: var(--geist-success-dark);
+	background-color: var(--color-success-lighter);
+	color: var(--color-success-dark);
 }
 
 /* input[type='email']:invalid {
-	border: 1px solid var(--geist-error);
+	border: 1px solid var(--color-error);
 } */
 
 input[type='checkbox'],
@@ -40,7 +40,7 @@ input[type='file'] {
 input[type='file']::file-selector-button {
 	padding: 0.5rem 0.75rem;
 	border-radius: 5px;
-	background-color: var(--geist-blue);
+	background-color: var(--color-blue);
 	border: none;
 	outline: none;
 	font: inherit;
@@ -62,19 +62,19 @@ input:disabled {
 }
 
 .error {
-	color: var(--geist-error-light);
+	color: var(--color-error-light);
 }
 
 .error input {
-	border-color: var(--geist-error-light);
+	border-color: var(--color-error-light);
 }
 
 .success {
-	color: var(--geist-success-light);
+	color: var(--color-success-light);
 }
 
 .success input {
-	border-color: var(--geist-sucess-light);
+	border-color: var(--color-sucess-light);
 }
 
 .validity-message {
@@ -84,8 +84,8 @@ input:disabled {
 
 form {
 	padding: 1rem 1.5rem 1rem 1.5rem;
-	background-color: var(--geist-background-dark);
-	border: 1px solid var(--geist-background-darker);
+	background-color: var(--color-background-dark);
+	border: 1px solid var(--color-background-darker);
 	border-radius: 5px;
 	display: flex;
 	flex-direction: column;
