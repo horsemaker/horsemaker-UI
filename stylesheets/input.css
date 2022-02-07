@@ -4,16 +4,16 @@
   gap: 0.25rem;
 }
 
-input,
-textarea {
+.input,
+.textarea {
   padding: 0.5rem;
   border-radius: 5px;
   border: 1px solid var(--accents-4);
   width: 100%;
 }
 
-input:focus,
-textarea:focus {
+.input:focus,
+.textarea:focus {
   border-color: var(--accents-2);
 }
 
@@ -69,11 +69,19 @@ input:disabled {
   border-color: var(--color-error-light);
 }
 
+.error input:focus {
+  border-color: var(--color-error-light);
+}
+
 .success {
   color: var(--color-success-light);
 }
 
 .success input {
+  border-color: var(--color-sucess-light);
+}
+
+.success input:focus {
   border-color: var(--color-sucess-light);
 }
 
