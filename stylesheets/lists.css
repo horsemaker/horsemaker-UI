@@ -44,6 +44,6 @@
   list-style: none;
 }
 
-li {
+.list-cursor-pointer > li {
   cursor: pointer;
 }
