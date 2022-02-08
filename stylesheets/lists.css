@@ -1,0 +1,49 @@
+.list-spaced {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.list-simple {
+  background-color: var(--color-background-dark);
+  border: 1px solid var(--color-background-darker);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 0.75rem;
+}
+
+.list-simple > li {
+  padding: 0.5rem;
+  border-bottom: 1px solid var(--color-background-darker);
+}
+
+.list-simple > li:last-child {
+  border: none;
+}
+
+.list-icon > li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.list-stacked > li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.list-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.list-style-none {
+  list-style: none;
+}
+
+li {
+  cursor: pointer;
+}

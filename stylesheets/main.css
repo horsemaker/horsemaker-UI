@@ -11,6 +11,7 @@
 @import url(image.css);
 @import url(input.css);
 @import url(typography.css);
+@import url(lists.css);
 
 /* Typoghraphy */
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -102,3 +103,31 @@
 }
 
 /* Highlights */
+
+/* Colors */
+
+.color-success {
+  color: var(--color-success);
+}
+
+.color-success-light {
+  color: var(--color-success-light);
+}
+
+.color-accents-1 {
+  color: var(--accents-1);
+}
+
+.color-accents-2 {
+  color: var(--accents-2);
+}
+
+.color-accents-3 {
+  color: var(--accents-3);
+}
+
+.color-accents-4 {
+  color: var(--accents-4);
+}
+
+/* Colors */
