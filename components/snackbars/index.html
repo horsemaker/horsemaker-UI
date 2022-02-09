@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snackbars | Horsemaker's UI</title>
+    <link rel="stylesheet" href="../../stylesheets/reset.css" />
+    <link rel="stylesheet" href="../../stylesheets/common.css" />
+    <link rel="stylesheet" href="../../stylesheets/main.css" />
+    <link rel="stylesheet" href="../../stylesheets/docs.css" />
+    <script src="snackbars.js" async></script>
+  </head>
+  <body>
+    <div class="header">
+      <a class="header-link" href="/index.html"
+        ><img class="avatar-sm" src="../../assets/horsemaker.svg" alt="🦄" />
+        <h2>Horsemaker's UI</h2>
+      </a>
+    </div>
+    <div class="main snackbars">
+      <h1 class="text-center">Snackbars</h1>
+      <p>Display an important message globally.</p>
+      <p>baseline snackbar</p>
+      <div class="playground">
+        <button
+          id="baseline-btn"
+          class="btn btn-solid-primary showSnackbar-btn"
+          data-button="baseline"
+        >
+          Show Snackbar
+        </button>
+        <div id="baseline-snackbar" class="snackbar baseline-snackbar">
+          <span class="snackbar-text"
+            >Can't send photo. Retry in 5 seconds.</span
+          >
+          <div class="snackbar-actions">
+            <button class="snackbar-btn">Retry</button>
+            <span
+              id="baseline-snackbar-close"
+              class="material-icons snackbar-icon"
+              data-snackbar="baseline"
+            >
+              close
+            </span>
+          </div>
+        </div>
+      </div>
+      <p>leading snackbar</p>
+      <div class="playground">
+        <button
+          id="leading-btn"
+          class="btn btn-solid-primary showSnackbar-btn"
+          data-button="leading"
+        >
+          Show Snackbar
+        </button>
+        <div id="leading-snackbar" class="snackbar leading-snackbar">
+          <span class="snackbar-text"> Your photo has been archived. </span>
+          <div class="snackbar-actions">
+            <button class="snackbar-btn">Undo</button>
+            <span
+              id="leading-snackbar-close"
+              class="material-icons snackbar-icon"
+              data-snackbar="leading"
+            >
+              close
+            </span>
+          </div>
+        </div>
+      </div>
+      <p>stacked snackbar</p>
+      <div class="playground">
+        <button
+          id="stacked-btn"
+          class="btn btn-solid-primary showSnackbar-btn"
+          data-button="stacked"
+        >
+          Show Snackbar
+        </button>
+        <div id="stacked-snackbar" class="snackbar stacked-snackbar">
+          <span class="snackbar-text"
+            >This item already has the label "travel". You can add a new
+            label.</span
+          >
+          <div class="snackbar-actions">
+            <button class="snackbar-btn">Add a new label</button>
+            <span
+              id="stacked-snackbar-close"
+              class="material-icons snackbar-icon"
+              data-snackbar="stacked"
+            >
+              close
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <span
+        >created by
+        <a
+          class="hl hl-warning"
+          target="_blank"
+          href="https://peerlist.io/horsemaker"
+          >horsemaker</a
+        ></span
+      >
+      <span> - </span>
+      <span
+        >credits to
+        <a class="hl hl-warning" target="_blank" href="https://neog.camp/"
+          >neoG Camp</a
+        ></span
+      >
+    </footer>
+  </body>
+</html>

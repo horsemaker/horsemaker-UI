@@ -1,0 +1,11 @@
+.ratings {
+  display: flex;
+}
+
+.rating-icon {
+  color: var(--color-warning-light);
+}
+
+.ratings-sm > .rating-icon {
+  font-size: 0.875rem;
+}
