@@ -1,45 +1,69 @@
 body {
-  margin-top: 6vh;
+  /* margin-top: 6vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 5vh 0;
 }
 
-.title {
+.welcome {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.welcome-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome-image {
+  width: 16rem;
+}
+
+.welcome-title {
+  margin-top: -1rem;
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.welcome-desc {
+  margin: 1rem 0;
+  font-size: 1.25rem;
+  max-width: 50vw;
   word-wrap: break-word;
 }
 
-.introduction {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-  letter-spacing: var(--letter-spacing);
+.welcome-link {
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+  background-color: var(--color-violet-light);
 }
 
-.introduction-details {
+.installation {
+  scroll-margin-top: 7.5rem;
   display: flex;
   flex-direction: column;
+  gap: 1.5rem;
+  max-width: 50vw;
 }
 
-.introduction-lineOne {
-  font-weight: 500;
-  font-size: 1.5rem;
-}
-
-.introduction-lineTwo {
-  font-weight: 400;
-  font-size: 1.25rem;
-}
-
-.introduction-lineThree {
-  font-weight: 300;
-  font-size: 1rem;
+code {
+  width: 100%;
 }
 
 .components {
+  scroll-margin-top: 7.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.components-main {
   display: flex;
   max-width: 75vw;
   flex-wrap: wrap;
@@ -62,12 +86,38 @@ body {
   align-self: flex-start;
 }
 
+@media screen and (max-width: 700px) {
+  .welcome-title {
+    font-size: 3rem;
+  }
+
+  .welcome-desc {
+    margin: 2rem 0;
+    max-width: 100%;
+  }
+}
+
 @media screen and (max-width: 600px) {
-  .introduction {
-    text-align: center;
+  .welcome-link {
+    margin-top: 1.5rem;
+    font-size: 1.75rem;
+  }
+
+  .installation {
+    max-width: 100%;
   }
 
   .components {
     max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .welcome-title {
+    font-size: 2.5rem;
+  }
+
+  .welcome-link {
+    font-size: 1.5rem;
   }
 }
