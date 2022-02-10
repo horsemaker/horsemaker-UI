@@ -35,6 +35,16 @@
           >
         </span>
       </div>
+      <pre class="code">
+        <code class="html">
+  &lt;span class="badge">
+    Alerts
+    &lt;span class="badge-content badge-small badge-right badge-warning"
+      >4&lt;/span
+    >
+  &lt;/span>
+        </code>
+      </pre>
       <!-- Text with large badge -->
       <p>Text with large badge</p>
       <div class="playground">
@@ -45,6 +55,16 @@
           >
         </span>
       </div>
+      <pre class="code">
+        <code class="html">
+  &lt;span class="badge">
+    Alerts
+    &lt;span class="badge-content badge-large badge-right badge-violet"
+      >4&lt;/span
+    >
+  &lt;/span>
+        </code>
+      </pre>
       <div class="playground">
         <span class="badge">
           Alerts
@@ -53,6 +73,16 @@
           >
         </span>
       </div>
+      <pre class="code">
+        <code class="html">
+  &lt;span class="badge">
+    Alerts
+    &lt;span class="badge-content badge-large badge-left badge-success"
+      >4&lt;/span
+    >
+  &lt;/span>
+        </code>
+      </pre>
       <!-- Button with a badge on the left -->
       <p>Button with a badge on the left</p>
       <div class="playground">
@@ -69,6 +99,22 @@
           >
         </button>
       </div>
+      <pre class="code">
+        <code class="html">
+  &lt;button class="badge badge-button">
+    Action
+    &lt;span class="badge-content badge-small badge-left badge-error"
+      >8&lt;/span
+    >
+  &lt;/button>
+  &lt;button class="badge btn btn-solid-primary">
+    Action
+    &lt;span class="badge-content badge-small badge-left badge-error"
+      >8&lt;/span
+    >
+  &lt;/button>
+        </code>
+      </pre>
       <!-- Icon with a badge -->
       <p>Icon with a badge</p>
       <div class="playground">
@@ -79,6 +125,16 @@
           ></span
         >
       </div>
+      <pre class="code">
+        <code class="html">
+  &lt;span class="badge badge-icon"
+    >&lt;span class="material-icons"> home&lt;/span>
+    &lt;span class="badge-content badge-small badge-blue badge-right"
+      >5&lt;/span
+    >&lt;/span
+  >
+        </code>
+      </pre>
       <p>Badges on Avatars</p>
       <div class="playground">
         <span class="badge badge-avatar">
@@ -89,7 +145,6 @@
           />
           <span class="badge-content status-lg status-online"></span>
         </span>
-
         <span class="badge badge-avatar">
           <img
             class="avatar-round avatar-md"
@@ -117,6 +172,44 @@
           <span class="badge-content status-xs status-dnd"></span>
         </span>
       </div>
+      <pre class="code">
+        <code class="html">
+  &lt;span class="badge badge-avatar">
+    &lt;img
+      class="avatar-round avatar-lg"
+      src="../../assets/avatarOne.png"
+      alt="avatar"
+    />
+    &lt;span class="badge-content status-lg status-online">&lt;/span>
+  &lt;/span>
+  &lt;span class="badge badge-avatar">
+    &lt;img
+      class="avatar-round avatar-md"
+      src="../../assets/avatarTwo.png"
+      alt="avatar"
+    />
+    &lt;span class="badge-content status-md status-idle">&lt;/span>
+  &lt;/span>
+
+  &lt;span class="badge badge-avatar">
+    &lt;img
+      class="avatar-round avatar-sm"
+      src="../../assets/avatarThree.png"
+      alt="avatar"
+    />
+    &lt;span class="badge-content status-sm status-offline">&lt;/span>
+  &lt;/span>
+
+  &lt;span class="badge badge-avatar">
+    &lt;img
+      class="avatar-round avatar-xs"
+      src="../../assets/avatarFour.png"
+      alt="avatar"
+    />
+    &lt;span class="badge-content status-xs status-dnd">&lt;/span>
+  &lt;/span>
+        </code>
+      </pre>
     </div>
     <footer>
       <span
@@ -136,5 +229,9 @@
         ></span
       >
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll()
+    </script>
   </body>
 </html>

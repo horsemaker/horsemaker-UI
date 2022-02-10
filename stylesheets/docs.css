@@ -1,8 +1,21 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/base16/chalk.min.css);
+
 body {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 5vh 0;
+}
+
+.code {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  line-height: 1.6;
+}
+
+code {
+  border-radius: 5px;
+  max-height: 15rem;
 }
 
 .card-media {

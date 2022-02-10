@@ -46,6 +46,32 @@
           </div>
         </div>
       </div>
+      <pre class="code">
+        <code class="html">
+  &lt;button
+    id="baseline-btn"
+    class="btn btn-solid-primary showSnackbar-btn"
+    data-button="baseline"
+  >
+    Show Snackbar
+  &lt;/button>
+  &lt;div id="baseline-snackbar" class="snackbar baseline-snackbar">
+    &lt;span class="snackbar-text"
+      >Can't send photo. Retry in 5 seconds.&lt;/span
+    >
+    &lt;div class="snackbar-actions">
+      &lt;button class="snackbar-btn">Retry&lt;/button>
+      &lt;span
+        id="baseline-snackbar-close"
+        class="material-icons snackbar-icon"
+        data-snackbar="baseline"
+      >
+        close
+      &lt;/span>
+    &lt;/div>
+  &lt;/div>
+        </code>
+      </pre>
       <p>leading snackbar</p>
       <div class="playground">
         <button
@@ -69,6 +95,30 @@
           </div>
         </div>
       </div>
+      <pre class="code">
+        <code class="html">
+  &lt;button
+    id="leading-btn"
+    class="btn btn-solid-primary showSnackbar-btn"
+    data-button="leading"
+  >
+    Show Snackbar
+  &lt;/button>
+  &lt;div id="leading-snackbar" class="snackbar leading-snackbar">
+    &lt;span class="snackbar-text"> Your photo has been archived. &lt;/span>
+    &lt;div class="snackbar-actions">
+      &lt;button class="snackbar-btn">Undo&lt;/button>
+      &lt;span
+        id="leading-snackbar-close"
+        class="material-icons snackbar-icon"
+        data-snackbar="leading"
+      >
+        close
+      &lt;/span>
+    &lt;/div>
+  &lt;/div>
+        </code>
+      </pre>
       <p>stacked snackbar</p>
       <div class="playground">
         <button
@@ -95,6 +145,33 @@
           </div>
         </div>
       </div>
+      <pre class="code">
+        <code class="html">
+  &lt;button
+    id="stacked-btn"
+    class="btn btn-solid-primary showSnackbar-btn"
+    data-button="stacked"
+  >
+    Show Snackbar
+  &lt;/button>
+  &lt;div id="stacked-snackbar" class="snackbar stacked-snackbar">
+    &lt;span class="snackbar-text"
+      >This item already has the label "travel". You can add a new
+      label.&lt;/span
+    >
+    &lt;div class="snackbar-actions">
+      &lt;button class="snackbar-btn">Add a new label&lt;/button>
+      &lt;span
+        id="stacked-snackbar-close"
+        class="material-icons snackbar-icon"
+        data-snackbar="stacked"
+      >
+        close
+      &lt;/span>
+    &lt;/div>
+  &lt;/div>
+        </code>
+      </pre>
     </div>
     <footer>
       <span
@@ -114,5 +191,9 @@
         ></span
       >
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll()
+    </script>
   </body>
 </html>
