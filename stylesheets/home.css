@@ -8,11 +8,11 @@ body {
 
 .welcome {
   height: 100vh;
-  display: flex;
-  align-items: center;
 }
 
 .welcome-main {
+  margin-top: 6rem;
+  scroll-margin-top: 6rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,20 +24,20 @@ body {
 
 .welcome-title {
   margin-top: -1rem;
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: 800;
 }
 
 .welcome-desc {
   margin: 1rem 0;
   font-size: 1.25rem;
-  max-width: 50vw;
+  max-width: 45vw;
   word-wrap: break-word;
 }
 
 .welcome-link {
   margin-top: 1rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   padding: 1rem 1.5rem;
   border-radius: 5px;
@@ -99,7 +99,7 @@ code {
 
 @media screen and (max-width: 600px) {
   .welcome-link {
-    margin-top: 1.5rem;
+    /* margin-top: 1.5rem; */
     font-size: 1.75rem;
   }
 
@@ -118,6 +118,6 @@ code {
   }
 
   .welcome-link {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 }
