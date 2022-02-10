@@ -73,6 +73,57 @@
           </div>
         </form>
       </div>
+      <pre class="code">
+        <code class="html">
+  &lt;form>
+    &lt;div class="input-group input-text">
+      &lt;label for="username">Username&lt;/label>
+      &lt;input
+        class="input"
+        type="text"
+        name="username"
+        id="username"
+        placeholder="Horsemaker"
+      />
+    &lt;/div>
+    &lt;div class="input-group input-email">
+      &lt;label for="email">Email*&lt;/label>
+      &lt;input
+        class="input"
+        type="email"
+        name="email"
+        id="email"
+        placeholder="hey@example.com"
+        required
+      />
+    &lt;/div>
+    &lt;div class="input-group input-text">
+      &lt;label for="country">Country&lt;/label>
+      &lt;input
+        class="input"
+        type="text"
+        name="country"
+        id="country"
+        placeholder="India, USA, etc."
+        value="India"
+        disabled
+      />
+    &lt;/div>
+    &lt;div class="input-group input-text">
+      &lt;label for="city">City&lt;/label>
+      &lt;input
+        class="input"
+        type="text"
+        name="city"
+        id="city"
+        placeholder="Mumbai, Delhi, etc."
+        value="Mumbai"
+        readonly
+      />
+    &lt;/div>
+  &lt;/form>
+        </code>
+      </pre>
       <p>errored / successful inputs</p>
       <div class="playground">
         <form>
@@ -100,6 +151,34 @@
           </div>
         </form>
       </div>
+      <pre class="code">
+        <code class="html">
+  &lt;form>
+    &lt;div class="input-group input-password error">
+      &lt;label for="password">Password*&lt;/label>
+      &lt;input
+        class="input"
+        type="password"
+        name="password"
+        id="password"
+        required
+      />
+      &lt;div class="validity-message">Minimum 8 characters required!&lt;/div>
+    &lt;/div>
+    &lt;div class="input-group input-password success">
+      &lt;label for="confirmPassword">Confirm Password*&lt;/label>
+      &lt;input
+        class="input"
+        type="password"
+        name="confirmPassword"
+        id="confirmPassword"
+        required
+      />
+      &lt;div class="validity-message">Password Matched!&lt;/div>
+    &lt;/div>
+  &lt;/form>
+        </code>
+      </pre>
       <p>inputs with options</p>
       <div class="playground">
         <form>
@@ -120,6 +199,27 @@
           </div>
         </form>
       </div>
+      <pre class="code">
+        <code class="html">
+  &lt;form>
+    &lt;div class="input-group input-options">
+      &lt;label for="color">Choose a color 👇&lt;/label>
+      &lt;input
+        class="input"
+        type="text"
+        name="color"
+        id="color"
+        list="colors"
+      />
+      &lt;datalist id="colors">
+        &lt;option value="Orange">&lt;/option>
+        &lt;option value="Purple">&lt;/option>
+        &lt;option value="Green">&lt;/option>
+      &lt;/datalist>
+    &lt;/div>
+  &lt;/form>
+        </code>
+      </pre>
       <p>inputs for date & time</p>
       <div class="playground">
         <form>
@@ -141,6 +241,20 @@
 					</div> -->
         </form>
       </div>
+      <pre class="code">
+        <code class="html">
+  &lt;form>
+    &lt;div class="input-group input-date">
+      &lt;label for="date">Date&lt;/label>
+      &lt;input class="input" type="date" name="date" id="date" />
+    &lt;/div>
+    &lt;div class="input-group input-time">
+      &lt;label for="time">Time&lt;/label>
+      &lt;input class="input" type="time" name="time" id="time" />
+    &lt;/div>
+  &lt;/form>
+        </code>
+      </pre>
       <p>input for numbers only</p>
       <div class="playground">
         <form>
@@ -156,6 +270,22 @@
           </div>
         </form>
       </div>
+      <pre class="code">
+        <code class="html">
+  &lt;form>
+    &lt;div class="input-group input-number">
+      &lt;label for="number">Number&lt;/label>
+      &lt;input
+        class="input"
+        type="number"
+        name="number"
+        id="number"
+        placeholder="0"
+      />
+    &lt;/div>
+  &lt;/form>
+        </code>
+      </pre>
       <p>input to choose a file</p>
       <div class="playground">
         <form>
@@ -165,6 +295,16 @@
           </div>
         </form>
       </div>
+      <pre class="code">
+        <code class="html">
+  &lt;form>
+    &lt;div class="input-group input-file">
+      &lt;label for="file">Upload file&lt;/label>
+      &lt;input class="input" type="file" name="file" id="file" />
+    &lt;/div>
+  &lt;/form>
+        </code>
+      </pre>
       <p>textarea</p>
       <div class="playground">
         <form>
@@ -180,6 +320,22 @@
           </div>
         </form>
       </div>
+      <pre class="code">
+        <code class="html">
+  &lt;form>
+    &lt;div class="input-group input-textarea">
+      &lt;label for="review">Review&lt;/label>
+      &lt;textarea
+        class="textarea"
+        name="review"
+        id="review"
+        cols="30"
+        rows="5"
+      >&lt;/textarea>
+    &lt;/div>
+  &lt;/form>
+        </code>
+      </pre>
       <p>checkbox inputs</p>
       <div class="playground">
         <form>
@@ -197,6 +353,24 @@
           </div>
         </form>
       </div>
+      <pre class="code">
+        <code class="html">
+  &lt;form>
+    &lt;div class="input-group input-checkbox">
+      &lt;input type="checkbox" name="checkbox" id="apple" checked />
+      &lt;label for="apple">Apple&lt;/label>
+    &lt;/div>
+    &lt;div class="input-group input-checkbox">
+      &lt;input type="checkbox" name="checkbox" id="orange" />
+      &lt;label for="orange">Orange&lt;/label>
+    &lt;/div>
+    &lt;div class="input-group input-checkbox">
+      &lt;input type="checkbox" name="checkbox" id="pear" disabled />
+      &lt;label for="pear">Pear&lt;/label>
+    &lt;/div>
+  &lt;/form>
+        </code>
+      </pre>
       <p>radio inputs</p>
       <div class="playground">
         <form>
@@ -215,6 +389,25 @@
           </div>
         </form>
       </div>
+      <pre class="code">
+        <code class="html">
+  &lt;form>
+    &lt;div class="input-group input-radio">
+      &lt;input type="radio" name="radio" id="mumbai" checked />
+      &lt;label for="mumbai">Mumbai&lt;/label>
+    &lt;/div>
+    &lt;div class="input-group input-radio">
+      &lt;input type="radio" name="radio" id="bangalore" />
+      &lt;label for="bangalore">Bangalore&lt;/label>
+    &lt;/div>
+
+    &lt;div class="input-group input-radio">
+      &lt;input type="radio" name="radio" id="delhi" disabled />
+      &lt;label for="delhi">Delhi&lt;/label>
+    &lt;/div>
+  &lt;/form>
+        </code>
+      </pre>
       <p>sample form</p>
       <div class="playground">
         <form>
@@ -266,6 +459,58 @@
           </div>
         </form>
       </div>
+      <pre class="code">
+        <code class="html">
+  &lt;form>
+    &lt;h2>Registration&lt;/h2>
+    &lt;div class="input-group input-text">
+      &lt;label for="for-username">Username*&lt;/label>
+      &lt;input
+        class="input"
+        type="text"
+        name="form-username"
+        id="form-username"
+        placeholder="Horsemaker"
+        required
+      />
+    &lt;/div>
+    &lt;div class="input-group input-email">
+      &lt;label for="form-email">Email*&lt;/label>
+      &lt;input
+        class="input"
+        type="email"
+        name="form-email"
+        id="form-email"
+        placeholder="hey@example.com"
+        required
+      />
+    &lt;/div>
+    &lt;div class="input-group input-password">
+      &lt;label for="form-password">Password*&lt;/label>
+      &lt;input
+        class="input"
+        type="password"
+        name="form-password"
+        id="form-password"
+        required
+      />
+    &lt;/div>
+    &lt;div class="input-group input-password">
+      &lt;label for="form-confirmPassword">Confirm Password*&lt;/label>
+      &lt;input
+        class="input"
+        type="password"
+        name="form-confirmPassword"
+        id="form-confirmPassword"
+        required
+      />
+    &lt;/div>
+    &lt;div class="input-submit">
+      &lt;button type="submit" class="btn btn-solid-primary">Sign Up&lt;/button>
+    &lt;/div>
+  &lt;/form>
+        </code>
+      </pre>
     </div>
     <footer>
       <span
@@ -285,7 +530,9 @@
         ></span
       >
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
     <script>
+      hljs.highlightAll()
       document
         .querySelector('.btn')
         .addEventListener('click', (e) => e.preventDefault())
