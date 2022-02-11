@@ -6,17 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lists | Horsemaker's UI</title>
     <link rel="stylesheet" href="../../stylesheets/reset.css" />
-    <link rel="stylesheet" href="../../stylesheets/common.css" />
     <link rel="stylesheet" href="../../stylesheets/main.css" />
+    <link rel="stylesheet" href="../../stylesheets/common.css" />
     <link rel="stylesheet" href="../../stylesheets/docs.css" />
   </head>
   <body>
-    <div class="header">
-      <a class="header-link" href="/index.html"
-        ><img class="avatar-sm" src="../../assets/horsemaker.svg" alt="🦄" />
-        <h2>Horsemaker's UI</h2>
-      </a>
-    </div>
+    <header class="header">
+      <nav class="navbar">
+        <section class="navbar-brand">
+          <a href="/index.html">
+            <img
+              class="brand-logo"
+              src="../../assets/horsemaker.svg"
+              alt="horsemaker"
+            />
+          </a>
+        </section>
+        <section class="navbar-menu">
+          <ul class="navbar-links">
+            <li class="navbar-link">
+              <a href="/index.html#installation">Installation</a>
+            </li>
+            <li class="navbar-link">
+              <a href="/index.html#components">Components</a>
+            </li>
+            <li class="navbar-link"><a href="#">Docs</a></li>
+            <li class="navbar-link">
+              <a
+                target="_blank"
+                href="https://github.com/horsemaker/horsemaker-UI"
+                >Github</a
+              >
+            </li>
+          </ul>
+          <span class="material-icons navbar-icon"> menu </span>
+        </section>
+      </nav>
+    </header>
+    <ul class="navbar-responsive-links">
+      <li class="navbar-link">
+        <a href="/index.html#installation">Installation</a>
+      </li>
+      <li class="navbar-link">
+        <a href="/index.html#components">Components</a>
+      </li>
+      <li class="navbar-link"><a href="#">Docs</a></li>
+      <li class="navbar-link">
+        <a target="_blank" href="https://github.com/horsemaker/horsemaker-UI"
+          >Github</a
+        >
+      </li>
+    </ul>
     <div class="main lists">
       <h1 class="text-center">Lists</h1>
       <p>ordered list</p>
@@ -202,8 +242,6 @@
       >
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
-    <script>
-      hljs.highlightAll()
-    </script>
+    <script src="../../javascript/docs.js"></script>
   </body>
 </html>
