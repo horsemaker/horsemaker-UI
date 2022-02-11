@@ -80,6 +80,10 @@ code {
   border-radius: 5px;
 }
 
+.component-desc {
+  margin-bottom: 1vh;
+}
+
 .component-link {
   margin-top: auto;
   align-self: flex-start;
