@@ -65,7 +65,7 @@
   /* Violet */
   --color-violet-lighter: #d8ccf1;
   --color-violet-light: #8a63d2;
-  --color-violet: #7928ca;
+  --color-violet: #4F397A;
   --color-violet-dark: #4c2889;
   /* Violet */
 
@@ -102,6 +102,10 @@
 
 .hl-violet {
   background-color: var(--color-violet);
+}
+
+.hl-violet-light {
+  background-color: var(--color-violet-light);
 }
 
 /* Highlights */
