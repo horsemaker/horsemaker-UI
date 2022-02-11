@@ -12,6 +12,7 @@
   border: 1px solid var(--color-background-darker);
   color: var(--snackbar-label-color);
   max-width: 98%;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .showSnackbar {
