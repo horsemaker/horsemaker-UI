@@ -149,3 +149,9 @@
 .card-order-first {
   order: -1;
 }
+
+@media screen and (max-width: 480px) {
+  .card-horizontal .card-title {
+    font-size: 1.25rem;
+  }
+}
