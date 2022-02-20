@@ -65,7 +65,7 @@
   /* Violet */
   --color-violet-lighter: #d8ccf1;
   --color-violet-light: #8a63d2;
-  --color-violet: #4F397A;
+  --color-violet: #4f397a;
   --color-violet-dark: #4c2889;
   /* Violet */
 
@@ -106,6 +106,14 @@
 
 .hl-violet-light {
   background-color: var(--color-violet-light);
+}
+
+.hl-code {
+  background-color: var(--color-background-darker);
+  font-family: monospace;
+  color: var(--color-warning-light);
+  border-radius: 5px;
+  padding: 0.25rem 0.5rem;
 }
 
 /* Highlights */
