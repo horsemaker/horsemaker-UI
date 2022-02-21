@@ -1,0 +1,32 @@
+.modal {
+  margin: auto;
+  background-color: var(--color-background-dark);
+  color: var(--color-foreground);
+  padding: 2rem 1.5rem;
+  border-radius: 5px;
+  border: 1px solid var(--color-background-darker);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.modal::backdrop {
+  background-color: rgba(17, 17, 17, 0.4);
+  backdrop-filter: blur(1px);
+}
+
+.modal-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.modal-actions {
+  display: flex;
+}
+
+.modal-action {
+  margin-top: 1rem;
+  margin-right: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
