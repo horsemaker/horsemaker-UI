@@ -109,6 +109,8 @@
 }
 
 .hl-code {
+  display: inline-block;
+  margin: 2px 0;
   background-color: var(--color-background-darker);
   font-family: monospace;
   color: var(--color-warning-light);
