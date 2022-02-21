@@ -1,5 +1,6 @@
 .snackbar {
   visibility: hidden;
+  z-index: 1;
   position: fixed;
   display: flex;
   flex-wrap: wrap;
