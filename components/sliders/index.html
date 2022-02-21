@@ -65,6 +65,11 @@
         range or at a particular value.
       </p>
       <h2>Range Slider</h2>
+      <p>
+        Range Sliders can be used to set a particular range for some value to
+        filter out particular objects. Have a look at the Price Range demo below
+        along with the code reference.
+      </p>
       <div class="playground">
         <div class="slider-wrapper">
           <h3>Price Range</h3>
@@ -117,6 +122,60 @@
           </div>
         </div>
       </div>
+      <pre class="code">
+        <code class="html">
+  &lt;div class="slider-wrapper">
+    &lt;h3>Price Range&lt;/h3>
+    &lt;p>Use slider or enter min & max price.&lt;/p>
+    &lt;div class="slider-input">
+      &lt;div class="slider-field">
+        &lt;span>Min&lt;/span>
+        &lt;input
+          type="number"
+          name="input-min"
+          id="input-min"
+          class="input input-min"
+          value="2500"
+        />
+      &lt;/div>
+      -
+      &lt;div class="slider-field">
+        &lt;span>Max&lt;/span>
+        &lt;input
+          type="number"
+          name="input-max"
+          id="input-max"
+          class="input input-max"
+          value="7500"
+        />
+      &lt;/div>
+    &lt;/div>
+    &lt;div class="slider-range">
+      &lt;div class="progress">&lt;/div>
+      &lt;input
+        type="range"
+        name="range-min"
+        id="range-min"
+        class="range-min"
+        min="0"
+        max="10000"
+        value="2500"
+        step="100"
+      />
+      &lt;input
+        type="range"
+        name="range-max"
+        id="range-max"
+        class="range-max"
+        min="0"
+        max="10000"
+        value="7500"
+        step="100"
+      />
+    &lt;/div>
+  &lt;/div>
+        </code>
+      </pre>
     </div>
     <footer>
       <span
