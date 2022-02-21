@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modals | Horsemaker's UI</title>
+    <link rel="stylesheet" href="../../stylesheets/reset.css" />
+    <link rel="stylesheet" href="../../stylesheets/main.css" />
+    <link rel="stylesheet" href="../../stylesheets/common.css" />
+    <link rel="stylesheet" href="../../stylesheets/docs.css" />
+    <script src="modals.js" async></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <section class="navbar-brand">
+          <a href="/index.html">
+            <img
+              class="brand-logo"
+              src="../../assets/horsemaker.svg"
+              alt="horsemaker"
+            />
+          </a>
+        </section>
+        <section class="navbar-menu">
+          <ul class="navbar-links">
+            <li class="navbar-link">
+              <a href="/index.html#installation">Installation</a>
+            </li>
+            <li class="navbar-link">
+              <a href="/index.html#components">Components</a>
+            </li>
+            <li class="navbar-link"><a href="#">Docs</a></li>
+            <li class="navbar-link">
+              <a
+                target="_blank"
+                href="https://github.com/horsemaker/horsemaker-UI"
+                >Github</a
+              >
+            </li>
+          </ul>
+          <span class="material-icons navbar-icon"> menu </span>
+        </section>
+      </nav>
+    </header>
+    <ul class="navbar-responsive-links">
+      <li class="navbar-link">
+        <a href="/index.html#installation">Installation</a>
+      </li>
+      <li class="navbar-link">
+        <a href="/index.html#components">Components</a>
+      </li>
+      <li class="navbar-link"><a href="#">Docs</a></li>
+      <li class="navbar-link">
+        <a target="_blank" href="https://github.com/horsemaker/horsemaker-UI"
+          >Github</a
+        >
+      </li>
+    </ul>
+    <div class="main modals">
+      <h1 class="text-center">Modals</h1>
+      <p>
+        Modals are a variant of dialog used to present critical information or
+        request user input needed to complete a user’s workflow.
+      </p>
+      <h2>Simple Modal</h2>
+      <div class="playground">
+        <button id="simple-modal-btn" class="btn btn-solid-primary">
+          Show Modal
+        </button>
+        <dialog id="simple-modal" class="modal">
+          <div class="modal-wrapper">
+            <h2 class="modal-header">Modal Header</h2>
+            <form method="dialog">
+              <button class="modal-action">
+                <img
+                  class="avatar-round avatar-sm"
+                  src="../../assets/avatarOne.png"
+                  alt="avatar"
+                />
+                <div class="list-info">
+                  <h3>Jane Doe</h3>
+                  <small class="color-accents-2">Did you pick Jenny?</small>
+                </div>
+              </button>
+              <button class="modal-action">
+                <img
+                  class="avatar-round avatar-sm"
+                  src="../../assets/avatarTwo.png"
+                  alt="avatar"
+                />
+                <div class="list-info">
+                  <h3>John Doe</h3>
+                  <small class="color-accents-2">This Sunday, golf?</small>
+                </div>
+              </button>
+              <button class="modal-action">
+                <img
+                  class="avatar-round avatar-sm"
+                  src="../../assets/avatarThree.png"
+                  alt="avatar"
+                />
+                <div class="list-info">
+                  <h3>Jenny Doe</h3>
+                  <small class="color-accents-2">Where are you?</small>
+                </div>
+              </button>
+            </form>
+          </div>
+        </dialog>
+      </div>
+      <h2>Alert Modal</h2>
+      <div class="playground">
+        <button id="alert-modal-btn" class="btn btn-solid-primary">
+          Show Modal
+        </button>
+        <dialog id="alert-modal" class="modal">
+          <div class="modal-wrapper">
+            <h2 class="modal-header">Modal Header</h2>
+            <span class="modal-text">Modal Body Text</span>
+            <form method="dialog" class="modal-actions">
+              <button class="btn btn-solid-danger modal-action">
+                Action 1
+              </button>
+              <button class="btn btn-solid-safe modal-action">Action 2</button>
+            </form>
+          </div>
+        </dialog>
+      </div>
+      <h2>Confirmation Modal</h2>
+      <div class="playground">
+        <button id="confirmation-modal-btn" class="btn btn-solid-primary">
+          Show Modal
+        </button>
+        <dialog id="confirmation-modal" class="modal">
+          <div class="modal-wrapper">
+            <h2 class="modal-header">Modal Header</h2>
+            <div class="input-group input-radio">
+              <input type="radio" name="radio" id="mumbai" />
+              <label for="mumbai">Mumbai</label>
+            </div>
+            <div class="input-group input-radio">
+              <input type="radio" name="radio" id="bangalore" />
+              <label for="bangalore">Bangalore</label>
+            </div>
+            <div class="input-group input-radio">
+              <input type="radio" name="radio" id="delhi" />
+              <label for="delhi">Delhi</label>
+            </div>
+            <form method="dialog" class="modal-actions">
+              <button class="btn btn-solid-danger modal-action">
+                Action 1
+              </button>
+              <button class="btn btn-solid-safe modal-action">Action 2</button>
+            </form>
+          </div>
+        </dialog>
+      </div>
+    </div>
+    <footer>
+      <span
+        >created by
+        <a
+          class="hl hl-warning"
+          target="_blank"
+          href="https://peerlist.io/horsemaker"
+          >horsemaker</a
+        ></span
+      >
+      <span> - </span>
+      <span
+        >credits to
+        <a class="hl hl-warning" target="_blank" href="https://neog.camp/"
+          >neoG Camp</a
+        ></span
+      >
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script src="../../javascript/docs.js"></script>
+  </body>
+</html>
