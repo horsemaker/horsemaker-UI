@@ -65,6 +65,10 @@
         request user input needed to complete a user’s workflow.
       </p>
       <h2>Simple Modal</h2>
+      <p>
+        A very simple modal with some action options. Click on the button below
+        to have a look at the demo & refer to the code.
+      </p>
       <div class="playground">
         <button id="simple-modal-btn" class="btn btn-solid-primary">
           Show Modal
@@ -110,7 +114,58 @@
           </div>
         </dialog>
       </div>
+      <pre class="code">
+        <code class="html">
+  &lt;button id="simple-modal-btn" class="btn btn-solid-primary">
+    Show Modal
+  &lt;/button>
+  &lt;dialog id="simple-modal" class="modal">
+    &lt;div class="modal-wrapper">
+      &lt;h2 class="modal-header">Modal Header&lt;/h2>
+      &lt;form method="dialog">
+        &lt;button class="modal-action">
+          &lt;img
+            class="avatar-round avatar-sm"
+            src="../../assets/avatarOne.png"
+            alt="avatar"
+          />
+          &lt;div class="list-info">
+            &lt;h3>Jane Doe&lt;/h3>
+            &lt;small class="color-accents-2">Did you pick Jenny?&lt;/small>
+          &lt;/div>
+        &lt;/button>
+        &lt;button class="modal-action">
+          &lt;img
+            class="avatar-round avatar-sm"
+            src="../../assets/avatarTwo.png"
+            alt="avatar"
+          />
+          &lt;div class="list-info">
+            &lt;h3>John Doe&lt;/h3>
+            &lt;small class="color-accents-2">This Sunday, golf?&lt;/small>
+          &lt;/div>
+        &lt;/button>
+        &lt;button class="modal-action">
+          &lt;img
+            class="avatar-round avatar-sm"
+            src="../../assets/avatarThree.png"
+            alt="avatar"
+          />
+          &lt;div class="list-info">
+            &lt;h3>Jenny Doe&lt;/h3>
+            &lt;small class="color-accents-2">Where are you?&lt;/small>
+          &lt;/div>
+        &lt;/button>
+      &lt;/form>
+    &lt;/div>
+  &lt;/dialog>
+        </code>
+      </pre>
       <h2>Alert Modal</h2>
+      <p>
+        An alert modal with some alert message & action options. Click on the
+        button below to have a look at the demo & refer to the code.
+      </p>
       <div class="playground">
         <button id="alert-modal-btn" class="btn btn-solid-primary">
           Show Modal
@@ -128,7 +183,30 @@
           </div>
         </dialog>
       </div>
+      <pre class="code">
+        <code class="html">
+  &lt;button id="alert-modal-btn" class="btn btn-solid-primary">
+    Show Modal
+  &lt;/button>
+  &lt;dialog id="alert-modal" class="modal">
+    &lt;div class="modal-wrapper">
+      &lt;h2 class="modal-header">Modal Header&lt;/h2>
+      &lt;span class="modal-text">Modal Body Text&lt;/span>
+      &lt;form method="dialog" class="modal-actions">
+        &lt;button class="btn btn-solid-danger modal-action">
+          Action 1
+        &lt;/button>
+        &lt;button class="btn btn-solid-safe modal-action">Action 2&lt;/button>
+      &lt;/form>
+    &lt;/div>
+  &lt;/dialog>
+        </code>
+      </pre>
       <h2>Confirmation Modal</h2>
+      <p>
+        A confirmation modal with some options & actions. Click on the button
+        below to have a look at the demo & refer to the code.
+      </p>
       <div class="playground">
         <button id="confirmation-modal-btn" class="btn btn-solid-primary">
           Show Modal
@@ -157,6 +235,36 @@
           </div>
         </dialog>
       </div>
+      <pre class="code">
+        <code class="html">
+  &lt;button id="confirmation-modal-btn" class="btn btn-solid-primary">
+    Show Modal
+  &lt;/button>
+  &lt;dialog id="confirmation-modal" class="modal">
+    &lt;div class="modal-wrapper">
+      &lt;h2 class="modal-header">Modal Header&lt;/h2>
+      &lt;div class="input-group input-radio">
+        &lt;input type="radio" name="radio" id="mumbai" />
+        &lt;label for="mumbai">Mumbai&lt;/label>
+      &lt;/div>
+      &lt;div class="input-group input-radio">
+        &lt;input type="radio" name="radio" id="bangalore" />
+        &lt;label for="bangalore">Bangalore&lt;/label>
+      &lt;/div>
+      &lt;div class="input-group input-radio">
+        &lt;input type="radio" name="radio" id="delhi" />
+        &lt;label for="delhi">Delhi&lt;/label>
+      &lt;/div>
+      &lt;form method="dialog" class="modal-actions">
+        &lt;button class="btn btn-solid-danger modal-action">
+          Action 1
+        &lt;/button>
+        &lt;button class="btn btn-solid-safe modal-action">Action 2&lt;/button>
+      &lt;/form>
+    &lt;/div>
+  &lt;/dialog>
+        </code>
+      </pre>
     </div>
     <footer>
       <span
