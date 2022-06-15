@@ -36,6 +36,7 @@ Or paste the following import statement at the beginning of your CSS file.
 - [Inputs](https://horsemaker-ui.netlify.app/components/inputs/index.html)
 - [Lists](https://horsemaker-ui.netlify.app/components/lists/index.html)
 - [Modals](https://horsemaker-ui.netlify.app/components/modals/index.html)
+- [Navigations](https://horsemaker-ui.netlify.app/components/navigations/index.html)
 - [Ratings](https://horsemaker-ui.netlify.app/components/ratings/index.html)
 - [Sliders](https://horsemaker-ui.netlify.app/components/sliders/index.html)
 - [Snackbars](https://horsemaker-ui.netlify.app/components/snackbars/index.html)

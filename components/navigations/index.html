@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Grids | Horsemaker's UI</title>
+    <title>Navigations | Horsemaker's UI</title>
 
     <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
 
@@ -103,94 +103,77 @@
         >
       </li>
     </ul>
-    <div class="main grids">
-      <h1 class="text-center">Grids</h1>
+    <div class="main navigations">
+      <h1 class="text-center">Navigations</h1>
       <p>
-        Use grids to create sections of your viewport. Using css grid you can
-        create way more complex layouts than with tables.
+        Navigation is first and most important component of any website. Without
+        navbar user will not know which brand is it, where to look more and to
+        connect with brand.
       </p>
-      <h2>Grids - 2 Columns</h2>
+      <h2>Navbar</h2>
       <p>
-        Use <span class="hl-code">grid</span> &
-        <span class="hl-code">grid-cols-2</span> to divide your layout into 2
-        equal columns.
+        Below is an example of a responsive navbar with menu options on the
+        right side of the navbar. The navbar adjusts itself according to the
+        size of the screen.
       </p>
+      <p>Have a look at the <a class="live-link" href="./navigation.html">live demo</a>.</p>
       <div class="playground">
-        <div class="grid grid-cols-2">
-          <div class="grid-block"></div>
-          <div class="grid-block"></div>
-        </div>
+        <iframe
+          src="./navigation.html"
+          class=""
+          frameborder="1"
+          width="100%"
+          height="750vh"
+        ></iframe>
       </div>
       <pre class="code">
         <code class="html">
-  &lt;div class="grid grid-cols-2">
-    &lt;div class="grid-block">&lt;/div>
-    &lt;div class="grid-block">&lt;/div>
-  &lt;/div>
-        </code>
-      </pre>
-      <h2>Grids - 2 Rows</h2>
-      <p>
-        Use <span class="hl-code">grid</span> &
-        <span class="hl-code">grid-rows-2</span> to divide your layout into 2
-        equal rows.
-      </p>
-      <div class="playground">
-        <div class="grid grid-rows-2">
-          <div class="grid-block"></div>
-          <div class="grid-block"></div>
-        </div>
-      </div>
-      <pre class="code">
-        <code class="html">
-  &lt;div class="grid grid-rows-2">
-    &lt;div class="grid-block">&lt;/div>
-    &lt;div class="grid-block">&lt;/div>
-  &lt;/div>
-        </code>
-      </pre>
-      <h2>Grids - 3 Columns</h2>
-      <p>
-        Use <span class="hl-code">grid</span> &
-        <span class="hl-code">grid-cols-3</span> to divide your layout into 3
-        equal columns.
-      </p>
-      <div class="playground">
-        <div class="grid grid-cols-3">
-          <div class="grid-block"></div>
-          <div class="grid-block"></div>
-          <div class="grid-block"></div>
-        </div>
-      </div>
-      <pre class="code">
-        <code class="html">
-  &lt;div class="grid grid-cols-3">
-    &lt;div class="grid-block">&lt;/div>
-    &lt;div class="grid-block">&lt;/div>
-    &lt;div class="grid-block">&lt;/div>
-  &lt;/div>
-        </code>
-      </pre>
-      <h2>Grids - 3 Rows</h2>
-      <p>
-        Use <span class="hl-code">grid</span> &
-        <span class="hl-code">grid-rows-3</span> to divide your layout into 3
-        equal rows.
-      </p>
-      <div class="playground">
-        <div class="grid grid-rows-3">
-          <div class="grid-block"></div>
-          <div class="grid-block"></div>
-          <div class="grid-block"></div>
-        </div>
-      </div>
-      <pre class="code">
-        <code class="html">
-  &lt;div class="grid grid-rows-3">
-    &lt;div class="grid-block">&lt;/div>
-    &lt;div class="grid-block">&lt;/div>
-    &lt;div class="grid-block">&lt;/div>
-  &lt;/div>
+  &lt;header class="header">
+    &lt;nav class="navbar">
+      &lt;section class="navbar-brand">
+        &lt;a href="/index.html">
+          &lt;img
+            class="brand-logo"
+            src="../../assets/horsemaker.svg"
+            alt="horsemaker"
+          />
+        &lt;/a>
+      &lt;/section>
+      &lt;section class="navbar-menu">
+        &lt;ul class="navbar-links">
+          &lt;li class="navbar-link">
+            &lt;a href="/index.html#installation">Installation&lt;/a>
+          &lt;/li>
+          &lt;li class="navbar-link">
+            &lt;a href="/index.html#components">Components&lt;/a>
+          &lt;/li>
+          &lt;li class="navbar-link">&lt;a href="#">Docs&lt;/a>&lt;/li>
+          &lt;li class="navbar-link">
+            &lt;a
+              target="_blank"
+              href="https://github.com/horsemaker/horsemaker-UI"
+              >Github&lt;/a
+            >
+          &lt;/li>
+        &lt;/ul>
+        &lt;span class="material-icons navbar-icon"> menu &lt;/span>
+      &lt;/section>
+    &lt;/nav>
+  &lt;/header>
+  &lt;ul class="navbar-responsive-links">
+    &lt;li class="navbar-link">
+      &lt;a href="/index.html#installation">Installation&lt;/a>
+    &lt;/li>
+    &lt;li class="navbar-link">
+      &lt;a href="/index.html#components">Components&lt;/a>
+    &lt;/li>
+    &lt;li class="navbar-link">&lt;a href="#">Docs&lt;/a>&lt;/li>
+    &lt;li class="navbar-link">
+      &lt;a target="_blank" href="https://github.com/horsemaker/horsemaker-UI"
+        >Github&lt;/a
+      >
+    &lt;/li>
+  &lt;/ul>
         </code>
       </pre>
     </div>
